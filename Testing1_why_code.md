@@ -12,11 +12,34 @@ with every feature that was added. Often these checks were repitive, tedious and
 
  In my heart I am a *lazy* tester in the Larry Wall sense of the word.<cite>[2]</cite> If I was confronted by a relatively mindless
  (read as: repitive, tedious and hard) task I was looking for some way to make the computer do the work for me or at least do the heavy lifting. 
- I did what I could with batch files and scripts but some cases just needed different tools. I knew I needed code. 
+ I did what I could with batch files and scripts but some cases just needed different tools. I knew I needed code.
+ 
+  This was also around the time that our company started discovering Agile Development, at least talking about it.
+  We had been pretty much waterfall, and had our share of long release cycles and delivering features that worked but weren't exactly what the customer 
+  wanted. As I began to read about it, I saw developers testing via unit tests and thought "Wow, I might get builds that actually work?". In contrast to the fairly regular
+ cycle of install the build, attempt to test the feature, immediately fail, then try to nicely convince the developer that something is very wrong and 
+ wait for the next build, Agile sounded like a breath of fresh air. The more I read the more I saw no real mention of the test team. It seemed like the industry was 
+ widely adopting a process that was actively thinking we don't need QA, we have unit tests and rapid feedback from stakeholders. I was concerned about what that meant
+ for software and I was scared for what that meant for my career. I knew I needed to level up my skills.
  
  I had always wanted to program. I grew up on 80's 8bit video games and dreaming of writing my own. Some of my early exposure was looking at C and 
- being a little scared off. [metroid code] So I was uncertain of my success but I knew I had to try. I wasn't looking to jump from QA to development.
- I was looking to use development skills to improve my testing. 
+ being a little scared off. [metroid code] So I was uncertain of my success but I knew I had to try. I wasn't looking to jump from QA to development,
+ I was looking to use development skills to improve my testing and remain an asset to the team.
+ 
+ I didn't have anyone to go to for help, but I was on a mission. I'd scour the internet for tutorials and examples that I could use to build my skills. 
+ (Unfortuately it was before Pluralsight, if you haven't used heard of or taken the training courses there I highly recommend it.)  It wasn't always easy,
+  in fact many times it was very hard but there is a primal satisfaction is watching something you wrote in action. 
+  
+ In the beginning it was just very small utilities that looking back offered little value other than enabling the learning. But once I could have code execute SQL
+ queries, read files and registry settings, I was Rockin and Rollin. I felt like a caveman hitting rocks together and then seeing a spark. 
+ 
+ As I learned more I could do more, suddenly I was extensible.
+ 
+ I no longer needed to manually check these things. My mind was more free to focus on the testing I was doing and not the checking. 
+ Even the quality of the repititive checking went up since human error was removed. No more worrying if the xml had a typo, the utility I wrote would parse it.
+ Long detailed checklists of verifications that took hours to do could be done in minutes with the results written to file for review by the tester.
+ 
+ Through this process, other interesting things happened. My conversations and interactions with our developers changed.  
 
 
 [1]: Link to Testing vs checking  
