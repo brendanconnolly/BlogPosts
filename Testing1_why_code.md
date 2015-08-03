@@ -39,7 +39,25 @@ with every feature that was added. Often these checks were repitive, tedious and
  Even the quality of the repititive checking went up since human error was removed. No more worrying if the xml had a typo, the utility I wrote would parse it.
  Long detailed checklists of verifications that took hours to do could be done in minutes with the results written to file for review by the tester.
  
- Through this process, other interesting things happened. My conversations and interactions with our developers changed.  
+ Through this process, other interesting things happened. My conversations and interactions with our developers changed. I has good relationships with the developers 
+ I was working with, but there  as they ssaw that I was reading the code they were checking in I found they were more eager to work with me proactively. They also
+ seemed to become more aware that other people were looking at their code so they were more self conscious of how it looked. It's like working on a project for your home
+ if its somewhere few people (if any) will see then you might not be so concerned with how it looks, or how polished it is. However, if you know visitors will be looking
+ you want to make the finished product look nice.  [better example]
+ 
+ The more I looked at their code, asked questions about decisions they made, and began to spot potential bugs earlier the more they engaged. It was the basis of mutual respect. A little respect goes a long way, and it certainly makes people more open to listening to your 
+ prespective. I wasn't just a tester looking to break their work, to critique their efforts or create new requirements for a feature. I was speaking their language, and we were collaborating on the
+ quality of the product. 
+ 
+Learning to code also improved my testing. There was often a pressure on the team to test everything "just in case".  It felt a little
+like a mechanic diagnosing your car troubles without popping the hood. Sure they might find the issue that way but they could go way off track and spend a great deal more
+time than needed. Just like with the mechanic example, a tester shouldn't blindly trust the developers, but you should be able to speak definitively about why you 
+are performing the tests you have chosen to do, and target your testing efforts accordingly. Looking at the code (or the diff's between old version and new) is just another
+tool to help reason and make decisions about what you are testing. The context of you testing matters,looking at the code can help you identify that context and question its
+validity. The code also helps you see what the unit tests cover and help you judge if any of you boundary or other input checks are covered.   
+ 
+ 
+ 
 
 
 [1]: Link to Testing vs checking  
