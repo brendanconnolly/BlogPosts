@@ -18,4 +18,5 @@ I see the code as one more oracle for a tester. It shouldn't be the only one or 
 
 Testing is hard, and as testers we need to use every resource we can. Not every test team has a good relationship with the dev team. The code is a window into how the developer is thinking about the feature, and that kind of resource is not something to ignore.    
 
-#Growing Technically
+###Growing Technically
+Part and parcel to working in the software industry is being able to cope with the pace of change. Testers aren't immune this and we need to be continually learning. As the industry continues to *shift left* there is a growing expectation that all roles will be more technical. As testers we shouldn't hide from this, we should embrace it and run with it. Becoming comfortable with code and development practices will only deepen your skillset and increase your marketability. 
