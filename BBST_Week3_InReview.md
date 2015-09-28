@@ -1,0 +1,17 @@
+This is part 3 of my experience through the 4 week BBST Foundations Course. 
+* [Week 1 In Review](http://www.brendanconnolly.net/bbst-foundations-week-1-in-review)
+* [Week 2 In Review](http://www.brendanconnolly.net/bbst-foundations-week-2-in-review)
+
+### The Last Week Before the Exam
+This week was different from the previous two weeks. The exam study forum was open and possible test questions were listed, so you can work through them and share ideas with fellow classmates. We only had one quiz instead of two. Also we didn't work in groups for the exercises but we did all work together. We had to submit individual answers, then review and grade other peoples responses. Then based on that feedback we had to respond with how that information might reshape your answer. These are great exercises, by writing your answer first you are forced to think through a position and support it. Then other people that have worked through the same problem give insight and critique. The feedback isn't negative or condescending, I've been impressed with the insight and perspective. I read through as many of the groups interactions as I could. Even if I wasn't going to give feedback, reading through the answers and responses offers a lot of insight. 
+
+### Complete Testing
+We covered the general impossibility of completely testing a product. There so many variables involved during testing that in most cases the number of tests explodes. We even got into formulas for calculating the actual number of tests required to cover all permutations. This is important as a foundation for testing. We are most often time constrained, so even if we could completely test something we may have lost other benefits, like more clear bug reports, helping train or teach other testers, etc. 
+
+### Measuring
+The last lecture got into measuring. One of my favorite points made in the lecture was about bug metrics and counting bugs. It's that we don't count bugs because we care about the total number, we look at it to estimate quality. That quality can be the quality of the tester or the approach, the developer, or the product or feature we are testing. This frames testing well, we don't test to find bugs. Bugs are a byproduct of learning about the product and the testers efforts to ensure that high quality, high value software is released. 
+
+### Studying for the Exam
+Questions are divided into short and long form answers, so most of the discussion centered on the short form questions. Interestingly a few questions got quite a bit of activity. I guess once a post starts geting some discussion it develops some gravitational pull and everyone gets drawn in. I participated in some of the larger conversation but also tried to submit answers for test questions that hadn't been covered yet. Unfortunately, not all my answers got feedback. The interchange of information, really helps create a better answer so I missed out on some of that. However, the prep is like like blogging about a topic or teaching someone. It forces you to materialize your thoughts and you start to see where the gaps are. So even without feedback my exam answers should benefit from previously thinking through an answer. 
+
+I'll be working on my exam for the next few days, so wish me luck and I'll see you next week!
