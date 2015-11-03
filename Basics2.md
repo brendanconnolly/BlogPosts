@@ -1,4 +1,4 @@
-Basics: So what do I test: Getting Started and Using Equivalance Classes and Boundaries
+Some Basics of Functional Testing: Getting Started and Using Equivalance Classes and Boundaries
 ==============================
 
 
