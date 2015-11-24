@@ -2,7 +2,7 @@ Living in the United States, Thanksgiving takes up an interesting position in th
 
 It's probably best when talking about the holidays to gloss over intimate details of their beginnings and focus on their intent.  With that in mind, Thanksgiving was always my favorite holiday growing up. The family would get together, most of us would help get the meal ready in some form or fashion. Then I'd get to relax and watch football or movies, while the turkey cooked. It's like Christmas without all the pressure and ceremony, plus I love all things pumpkin in the pre holiday spice days it was about the only timed you'd get to see or taste any of it. 
 
-As I've grown older, I really see the value in talking stock of the blessings in my life. While it might sound contrived, I am thankful to be a tester. I love working with software and here are a few reasons why.
+I really see the value in talking stock of the blessings in my life. While it might sound contrived, I am thankful to be a tester. I love working with software and here are a few reasons why.
 
 ### Thankful for Evolving Roles
 While it may still be happening, the days where a tester role was siloed into being handed complete software to test before a release are numbered. 
@@ -28,7 +28,7 @@ I'm thankful for working in a dynamic and challenging role that help me push my 
 ### Thankful for Community
 I've mentioned it a few times on this blog but the tester community is fantastic. 
 
-I got a taste of what a conference feels like being on Twitter during the [CAST 2015]() live stream. Hopefully I'll get to attend in person next year. 
+I got a taste of what a conference feels like being on Twitter during the [CAST 2015](https://www.youtube.com/user/TheAstVideos) live stream. Hopefully I'll get to attend in person next year. 
 
 Through the [BBST course](http://wp.me/p6vwxg-15), [Weekend Testing](http://wp.me/p6vwxg-1D) and twitter I've gotten to meet and share ideas with testers I would have probably never met. 
 
