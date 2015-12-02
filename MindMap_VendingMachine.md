@@ -30,7 +30,7 @@ How easy is the machine to restock, remove cash or maintain?
 ### Wrapping Up
 This is only my second attempt at mind mapping and I really think it is a valuable tool. I was never a fan of heavily structured test documentation, it's always felt constraining. To the point where the structure got in the way of the flow of my ideas. If I wanted to change or reorganize my tests I would have a substantial amount of purely administrative work. The tooling for mind maps really offers only minimal friction, I can shift nodes around and reconnect them to different areas easily. 
 
-Test documentation is often billed as a learning / training tool but in practice the main use seems to be for the case of auditing. I see much more value in a mind map as a training tool. The information can be absorbed at a glance or heavily studied. There's just less friction, if mind maps can't replace your test scripts maybe consider using them as a planning tool and linking them to the structured docmentation.   
+Test documentation is often billed as a learning / training tool but in practice the main use seems to be for the case of auditing. I see much more value in a mind map as a training tool. The information can be absorbed at a glance or heavily studied. There's just less friction, if mind maps can't replace your test scripts maybe consider using them as a planning tool and linking them to the structured documentation.   
 
  
 
