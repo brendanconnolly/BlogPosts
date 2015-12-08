@@ -17,11 +17,14 @@ The developer then chimes in with some clarifications able the technical ramific
 Imagine in the context of a news interview, asking the person translating between the news reporter and interviewee to provide on the fly commentary that both sides could understand. 
 
 ### Between Development and Deployment
-While testing may be progressing away from being a quality guardian, testers are still often asked to translate the progress 
+Traditionally our focus has been that if software is functioning as we expect (well mostly), then we might sign off on a release. While testers may be progressing away from being a quality guardians, we are still often asked to translate if work is ready for release or increasingly frequently might be responsible for deploying the release.
 
+Now here we are again spanning domains, only time we expand our language skills into operations. Testers might be deploying the software, or they may be supporting on premise installations. In either case you'll probably run into a "works on my machine" dilemma, and you may find yourself interpreting between IT requirements or restrictions and development practices to various members of your team. 
 
 ### Between Creators and Consumers
 It could be through your company's public bug tracking system, it could be in your organization that testers pull double duty and assist in customer support or somewhere in between. When an issue gets reported from an external source it often gets assigned to a tester to investigate. The tester may also take on the role of trainer since testers often have the most experience with updates to the product.
+
+ 
 
 
  
