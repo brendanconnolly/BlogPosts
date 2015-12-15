@@ -1,9 +1,8 @@
 
+Data Driven tests are a nice way to reduce boiler plate code and offer the option for less technical users to contribute to test cases. 
+We'll be using nunit 3 for these examples so I'll be covering the option for data driven tests and some of the changes for nunit 3.0. 
 
-We'll be using nunit 3 for these examples so I'll be covering the option for data driven tests and some of the changes for nunit 3.0
-
-### Why Write Data Driven Tests
-
+All the examples are available on my GitHub page in the [DataDrivenExamples](https://github.com/brendanconnolly/DataDrivenExamples) repo.
 
 ### Values
 
@@ -161,6 +160,7 @@ I have been reading about the update to version 3 for years and was excited to s
 
 I'm not sure if I am just adjusting to the new version, but while it works, in some areas it feels like a 1.0 release of a new framework. So far the [documentation](https://github.com/nunit/nunit/wiki), which previously one of my favorite things about NUnit is a little lacking compared to previous versions. I have been a big NUnit fan to date but it seems like a harder sell today, and I think I'll be taking a deeper look into xUnit.
 
+All the examples are available on my GitHub page in the [DataDrivenExamples](https://github.com/brendanconnolly/DataDrivenExamples) repo.
 
 
 
