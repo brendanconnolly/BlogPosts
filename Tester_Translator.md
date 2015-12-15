@@ -29,11 +29,6 @@ It could be through your company's public bug tracking system, it could be in yo
 ### So Why Is This Important?
 
 What it means is that while technical skills for a tester are important, we are primarily communicators. It's easy to lose sight of that as testing roles shift left. Your day-to-day activities may lean heavily toward the product management side, or they may seem to have blended with developers (mine has) but the biggest value a tester brings is their ability to bridge the gap between different disciplines. Additional knowledge be it technical, product or project related just enables you influence and guide your team toward higher quality more effectively. 
-
-
-
-  
-
  
 
 
