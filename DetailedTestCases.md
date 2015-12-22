@@ -13,17 +13,20 @@ As a means to compensate, enter heavily structured, prescriptive test cases...
 It's well intentioned, and sounds great, you just document the steps you will be taking while testing. Plan it out, get it reviewed, then get started. The planning helps structure your approach. The review is an opportunity for risk mitigation and training. At the end we have a beautiful document that quantifies progress of the testing, offers protection against doubters/finger pointers in the event a problem is uncovered after release, and it that can even be handed off as a training tool. 
 
 ### The Impossibility 
-We know we can't test everything, how can we document everything?
+
+We already know we [can't test everything](http://www.kaner.com/pdfs/imposs.pdf), how can we document everything?
 
 Testing is a human process, it's a performance. We don't ask actors to document each step of their process before stepping on the stage for earlier review and to serve as a record for other actors to study.
 
 Prescriptive test documentation is not really a training tool, at best it's a placebo, at worst it's a license to mindlessly follow directions. 
 
-
- 
-
  
 ### The Friction
+Just like usability is a concern when testing software, usability of a process is also a serious concern. 
+A common starting place is using spreadsheets to track tests, your team may even have it's own template to ease the process. 
+There are whole software suites sold for test case management. If nothing else this let's you know that some businesses believe that this is enough of a problem domain there is potential for profit in selling a solution. Even with the perfect solution, does it integrate with the rest of tools the team is using? 
+
+
 
 
 ### The Result
