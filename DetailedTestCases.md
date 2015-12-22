@@ -16,19 +16,22 @@ It's well intentioned, and sounds great, you just document the steps you will be
 
 We already know we [can't test everything](http://www.kaner.com/pdfs/imposs.pdf), how can we document everything?
 
-Testing is a human process, it's a performance. We don't ask actors to document each step of their process before stepping on the stage for earlier review and to serve as a record for other actors to study.
-
-Prescriptive test documentation is not really a training tool, at best it's a placebo, at worst it's a license to mindlessly follow directions. 
-
+Testing is a human process, it's a performance. We don't ask actors to document each step of their process before stepping on the stage for earlier review and to serve as a record for other actors to study. Could you imagine if the Academy of Motion Pictures or the Broadway League had to review these notes before giving an Oscar or Tony Award. 
  
 ### The Friction
+
 Just like usability is a concern when testing software, usability of a process is also a serious concern. 
-A common starting place is using spreadsheets to track tests, your team may even have it's own template to ease the process. 
+A common starting place is using spreadsheets to track tests, your team may even have its own template to ease the process. How hard is it to fit and describe the test and its steps in excel rows? It may seem easy at first but it gets complicated (or ugly fast), nested steps, complex validation criteria. If you shift the wrong row or column you might throw off formulas downstream or you may end up with a document that is as complex to read was to write. It's also a chore to maintain, since you may add, change or remove tests the format my change and need updating. Not to mention. Do you also have to take the status from excel and update it elsewhere?
+
 There are whole software suites sold for test case management. If nothing else this let's you know that some businesses believe that this is enough of a problem domain there is potential for profit in selling a solution. Even with the perfect solution, does it integrate with the rest of tools the team is using? 
 
+If the process is cumbersome it slows people down and makes it harder to get started testing rather than surf the web, get some coffee, or talk to a neighbor.
 
 
+### The End Result
+Whats recorded in the test cases, rarely reflects an accurate representation of the tester performing the testing. This goes for the original tester and any subsequent tester that may use that document as a reference. Prescriptive test documentation is not really a training tool, at best it's a placebo, at worst it's a license to mindlessly follow directions. You end up just following directions rather than testings, tuning out rather than plugging in. 
 
-### The Result
-Whats recorded in the test cases, rarely reflects an accurate representation of the tester performing the testing. This goes for the original tester and any subsequent tester that may use that document as a reference. 
+It's heavy and slow. These detailed test cases are just like the heavy detailed spec's that agile processes have ran away from. I'm not saying we shouldn't plan our test approach or document what we have done, but these heavily detailed testcases and test plans are not the solution. If it's not capturing all that we are doing while testing, and its not encouraging / teaching new testers to do quality work why are we doing it? 
+
+
 
