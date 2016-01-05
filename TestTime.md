@@ -1,5 +1,5 @@
 
-Whether it's making the latest release deadline or just being being generally productive, time management is hard.  
+Whether it's making the latest release deadline or just being generally productive, time management is hard.  
 
 I found the time for this blog by following some [advice from John Sonmez](https://twitter.com/jsonmez/status/659052192045862912) and paying myself first by waking up an  hour earlier than usual to dedicate time for the project. I'm not a morning person so this suggestion was an affront to my natural sensibilities. So I figured I'll just squeeze in time in the evenings. 
 
@@ -13,10 +13,17 @@ That strategy has served me pretty well, but its not a silver bullet. Its pretty
 
 The only option with multiple interests is to do more with the time thats available. 
 
+### Charters and Priority
+
+Just getting started is the hardest part. I talk about friction a lot, any thing that might impede my progress real or percieved is likely going to cause delayed progress (and act like a pebble in my shoe until the task is done). Joel Spolsky from Joel On Software has a really nice article about the impact of these [tiny frustrations](http://www.joelonsoftware.com/uibook/chapters/fog0000000057.html) on user experience.
+
+Charters establish ...
 
 ### Distractions
+So now we have a clear mission how do we avoid succumbing to distraction
+### Pomodoro Technique
 
 ### Sessions
 
-### Pomodoro Technique
+
 
