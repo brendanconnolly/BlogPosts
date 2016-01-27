@@ -1,4 +1,4 @@
-![Pen on Paper]()
+![Pen on Paper](http://www.brendanconnolly.net/wp-content/uploads/2016/01/pen1.jpg)
 
 This one is a bit of a classic, it pops up in interviews for a variety of positions even those outside of testing. 
 So how **DO** you test a pen? Or I suppose in its usual context the emphasis is usually, how do **YOU** test a pen? 
