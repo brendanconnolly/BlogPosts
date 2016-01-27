@@ -5,7 +5,7 @@ So how **DO** you test a pen? Or I suppose in its usual context the emphasis is 
 
 When I first heard it posed to someone I laughed, I knew the hiring manager and thought is this guy just literally looking at his desk and asking random questions? I can only imagine how unexpected it might seem to the person actually being asked. 
 
-The trick with all these test this arbitrary item questions is their subtle complexity. The first step is really getting past the curveball nature of the question. Then just dive in and let the ideas flow. This is where using a [Mind Map](https://en.wikipedia.org/wiki/Mind_map) is super helpful. If you haven't tried them, I really encourage you to do so, the process is less linear than using a list so it is a closer match to the human thought process. 
+The trick with all these test this arbitrary item questions is their subtle complexity. The first step is really getting past the curve-ball nature of the question. Then just dive in and let the ideas flow. This is where using a [Mind Map](https://en.wikipedia.org/wiki/Mind_map) is super helpful. If you haven't tried them, I really encourage you to do so, the process is less linear than using a list so it is a closer match to the human thought process. 
 
 ![Mind Map of a Pen](http://www.brendanconnolly.net/wp-content/uploads/2016/01/PenMap.png)
 
@@ -15,11 +15,11 @@ My first inclination when you give me a pen is to squiggle circles to paper to s
 
 We can't skip the obvious and jump to the complex and extraordinary conditions you may want to test, instead use it to immerse yourself in the process.
 
-### Types
+### Types and Purposes
 
-Pens come in all kinds of shapes and sizes. Some are disposable and some are reusable or even gift worthy. In each of these cases the pen must match the consumers expectations. A pen might look nice but if it doesn't write well I am going to think its a cheap knock off. If the pen is just an everyday disposable, I really only expect that it will work and not leak profusely.
+Pens come in all kinds of shapes and sizes. Some are disposable and some are reusable or even gift worthy. In each of these cases the pen must match the consumers expectations. A pen might look nice but if it doesn't write well I am going to think its a cheap knock off. If the pen is just an everyday disposable, I really only expect that it will work and not leak profusely. 
 
-There are pens 
+Specialized or decorative writing often requires a different pen. Artists using pen and ink also use specialized models. Testing is about understanding the domain of the user, so before making assumptions on the pen start asking clarifying questions.
 
 ### Personas 
 
@@ -30,6 +30,8 @@ Students might be some of the hardest users or abusers of pens. Tossed around, s
 The famous stars and athletes in addition to the people that seek their autographs have high expectations for pens in unusual circumstances and materials. All that while still expecting that signature to stand the test of time.  
 
 The advertiser, we all have a couple pens we picked up from some business or event as a promotional item. Here the pens functionality may come second to its novelty or advertising space. 
+
+The artist, from doodles to comics to museums this is a different very different style of use. The variety of paper types and other surfaces may vary wildly for this user. In addition to material differences, the user will expect a better experience through a more diverse range of use.  
 
 James Bond or MacGyver, these guys always seemed to be using a pen for some other purpose than intended. Can you diffuse a bomb with a pen or use it as a weapon of mass destruction? These guys can!
 
