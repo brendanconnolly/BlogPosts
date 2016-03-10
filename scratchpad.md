@@ -30,6 +30,7 @@ exploratory
 black box vs white box
 pair or peek - understanding what the code is doing helps to test effetively 
 
+proper care and feeding of testers
 
 [different post  pt2 mind maps, test docs and heuristics? ]
 

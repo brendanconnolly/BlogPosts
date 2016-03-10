@@ -1,4 +1,4 @@
-#The Cult of Keeping it Simple
+![keep it simple meme](http://www.brendanconnolly.net/wp-content/uploads/2016/02/simple.jpg)
 
 From [KISS](https://en.wikipedia.org/wiki/KISS_principle) to [Occam's Razor](http://math.ucr.edu/home/baez/physics/General/occam.html), we've all heard sage advice in some form or another about keeping things simple. It could be about the user experience of the software you are working with, it could be about your test approach. Sometimes though, there's more to simple than meets the eye. 
 
@@ -24,18 +24,14 @@ Keeping it simple can just be a metaphor for we aren't open to change. Good, bad
 
 In the worst cases, the original causation for the practice may have dissipated, or been rendered irrelevant for some other reason but there's no one left on the team that actually knows the why things are the way they are. They just follow the ritual to avoid angering the software gods. 
 
-
-### We are comfortable the way things are
-
-
-
 ### We don't understand the Risk
 
-Portions of your software may be outside of the core strengths of your team. For testers it could be a lack of specific types of testing or domain knowledge, like security or performance testing skills. The same goes for developers, your team may be infected with [NIHS (Not Invented Here Syndrome](http://www.developer.com/design/article.php/3338791/Overcoming-quotNot-Invented-Herequot-Syndrome.htm) and not even know it.
+Portions of your software may be outside of the core strengths of your team. For testers it could be a lack of specific types of testing or domain knowledge, like security or performance testing skills. The same goes for developers, your team could be infected with [NIHS (Not Invented Here Syndrome](http://www.developer.com/design/article.php/3338791/Overcoming-quotNot-Invented-Herequot-Syndrome.htm) and not even know it.
 
-It may seem more simple to stick with what you know, the problems is with (as Donald Rumsfeld say) the "unknown unknowns"
- 
+It may seem more simple to stick with what you know, the rest seems pretty complicated or maybe even unnecessary. The problem is with (as Donald Rumsfeld say) the "unknown unknowns"
+<iframe width="420" height="315" src="https://www.youtube.com/embed/QaxqUDd4fiw" frameborder="0"></iframe>
 
+You can't test for what you don't really understand. You can end up just guessing and assuming.
 
 ### We don't understand the Cost
 
@@ -45,6 +41,6 @@ Due to time or a variety of other constraints you may be releasing brittle or no
 
 ### What can we do about it?
 
-As testers, we can't just take things at face value. It's our job to [translate]() the message, so we can truly evaluate the situation, and tactically plan subsequent actions. Depending on the context some or all of these translations are reasonable and valid. Sometimes, there is a method to the madness, and its our job to understand that before suggesting alternatives. In other cases we need to dig a little deeper, and through that understanding seek out a means to communicating effectively with our team to drive and enable higher quality software, process or teams. 
+As testers, we can't just take things at face value. It's our job to [translate](http://www.brendanconnolly.net/testers-translators/) the message, so we can truly evaluate the situation, and tactically plan subsequent actions. Depending on the context some or all of these translations are reasonable and valid. Sometimes, there is a method to the madness, and its our job to understand that before suggesting alternatives. In other cases we need to dig a little deeper, and through that understanding seek out a means to communicating effectively with our team to drive and enable higher quality software, process or teams. 
 
 

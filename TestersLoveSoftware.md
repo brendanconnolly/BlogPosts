@@ -1,4 +1,4 @@
-Can we stop saying we break software?
+![Testers don't just break stuff](http://www.brendanconnolly.net/wp-content/uploads/2016/02/breakStuff.jpg)
 
 I cringe every time I talk to a tester and they equate testing to breaking software.  
 
@@ -19,8 +19,8 @@ Can you break something before it's built? What about before it's fully designed
 
 Our roles are changing, saying you just break stuff just shows you haven't moved beyond the mindset that testers can only observe and report. 
 
-### Testers Love Software
+## Testers Love Software
 We love software so much, we spend countless hours just thinking about how we can make it better. We love our customers so much we develop personas so we can better understand their usage patterns and needs. We care about the business so much that we try to uncover issues that could harm its image before any customer might find them, then advocate their resolution. We learn the product inside and out, often helping train and support our operations teams and users. 
+![baby questioning your love for software](http://www.brendanconnolly.net/wp-content/uploads/2016/02/thatsNotyou.jpg)
 
 Anyone can break things... Respect the craft, Respect yourself, if we can't speak well about what we do as testers we can't expect anyone else to. 
-
