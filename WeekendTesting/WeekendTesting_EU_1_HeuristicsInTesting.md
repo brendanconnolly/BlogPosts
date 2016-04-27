@@ -1,0 +1,30 @@
+![big lebowski rule of thumb](http://www.brendanconnolly.net/wp-content/uploads/2016/04/biglebowskytumb.jpg)
+
+This week I decided to go international and participated in my first [Weekend Testing Europe](http://weekendtesting.com/?p=4298) session. It's not region locked or anything, the sessions offered by the Weekend Testing Americas I've attended have all had an international cast of characters as well. Mostly it offers people more convenient times, although I have had my curiosity piqued on several occasions when people in the Americas session make mention of how some of the Europe sessions are structured differently. I knew I would have to find for myself, and when I saw the session on heuristics announced I couldn't resist.
+
+### So What Are Heuristics?
+
+Heuristics are basically rules of thumb, they're fallible but they help you approach a problem.
+ 
+The session started by posing that question, and to testers already familiar with them defining what a heuristic is might seem like a simple task. So why not just jump right in and get to discussing using them? 
+
+First and rather obviously people may be new to testing or just not heard the term used in this context. Secondly, regardless of your experience level, it's very common to have a form of understanding of something but not be able to adequately or accurately describe it to someone else. So the act of having to quantify your thoughts into a coherent description actually helps solidify your own understanding while possibly informing others as well. 
+
+### Who's Using Them?
+
+Next we discussed some of the heuristics people were actually using. A couple mneumonics were shared, [SFDiPOT](http://automation-beyond.com/2015/02/04/sfdipot-mindmap/) (**S**tructure **F**unctions **D**ata **I**nterfaces **P**latform **O**perations **T**ime) and [FEW HICCUPS](http://www.developsense.com/blog/2012/07/few-hiccupps/) (**F**amiliarity **E**xplainability **W**orld  **H**istory **I**mage **C**omparable Products, **C**laims, **U**ser Expectations, **P**roduct, **P**urpose, **S**tandards). James Bachs' [Dead Bee](http://www.satisfice.com/blog/archives/39) heuristic and the concept of [Lévy flights](https://seeingcomplexity.wordpress.com/2011/02/16/sharks-the-sp-500-and-levy-flights/) and how they apply to testing were also shared.
+
+This was my favorite part of the session. The primary excitement I had when seeing the topic for the session was the opportunity for learning other heuristics people use and how they are applying them. **Mission Accomplished!** Thanks to [Dwayne](https://twitter.com/n00btester) who shared how his team uses SFDiPOT to create models of the criteria for testing their application that are stored as mind maps. This resonated so strongly as something I could take to my team that is both an excuse to further showcase mind maps, and an opportunity to concretely apply a heuristic that I want to learn more about and end up with a valuable artifact. It's also supported by the fact that other testers are doing it and it is successful. It can be a real challenge at times to see outside the scope of your current team and the embedded experiences and processes contained within it. This is what is so powerful about these sessions, it's not just about learning it's about sharing and collaborating on a global scale. 
+
+### Application Time
+
+After discussing heuristics it was time to get hands on with them. Participants were encouraged to form small groups and use a heuristic to plan testing of [WorkFlowy](https://workflowy.com/). The session had around 20 participants so I understand that pairing or getting into small groups is probably the best way to handle this type of exercise. That said I still find it challenging logistically and personally. Pairing can be intimidating to start, and the same can be said for finding a group. I always feel like a kid walking into the cafeteria and trying to figure out where to sit. It's actually probably good practice but even then I kind of like the energy that can get created with a larger group. Skype can get hectic but its fun. Plus, I always feel like I am missing out on what the other groups are sharing but the transcripts usually get those side conversations added. It just means I circle back later if I'm still curious.
+
+After the hands on exercise wrapped up we all came together to share thoughts on the experience. It's challenging working on a new application, especially as an outsider. Testers usually have some access to oracles to inform or guide their approach, like documentation or acceptance criteria.  Then we assume personas to try and confirm that the system under test is usable to consumers with varying access or understanding of the oracles truths. 
+
+Without explicit oracles the process is inverted and testers can only inform themselves through interaction with the software. Creating this situation is perfect for working with heuristics, since the system under test is generally an unknown and you need some type for framework or thought process to make the process more manageable. The hard part is that it can be time consuming. You may think this is a negative for the session but it's a mixed blessing. There may not have been time to work through the entire heuristic mnemonic but in turn you have learned when a heuristic might be of most use to you. The specific heuristic isn't of particular importance, the understanding of how to approach testing a new application is a key factor to a tester being being more than domain expert. 
+
+If any of this sounds like it might be interesting to you I encourage you to pick a session (European or Americas) and just show up, practice your craft and enjoy yourself... 
+
+Feel free to check out my other [experience reports](http://www.brendanconnolly.net/category/weekend-testing/) if you need more convincing.
+ 
