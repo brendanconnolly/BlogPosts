@@ -1,3 +1,4 @@
+![Api meme](http://www.brendanconnolly.net/wp-content/uploads/2016/03/apiMeme.jpg)
 
 A lot of people think testers can only test things with a GUI. If we can't click it or touch it then we are out of our depth. A key area of software applications today is not GUI based, it is the engines that power the applications, it is the [API's](www.webopedia.com/TERM/A/API.html). Some companies only product are services that expose only a API to consumers. 
 
