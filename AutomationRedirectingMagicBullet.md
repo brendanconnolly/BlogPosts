@@ -1,14 +1,15 @@
-Automation: Redirecting the Magic Bullet
+![Curve Bullet Mythbusters](http://www.brendanconnolly.net/wp-content/uploads/2016/05/mythbusterBulletCurve.jpg)
 
-Automated testing is a pretty contentious subject in the testing world. We spend a great deal of time and energy distinguishing between what a tester does while engaging with a product and what the autoamted tests or [checks]() are doing. Justifying why we need to have a person actually interact with the software instead of using robotic verifiction. 
+Automated testing is a pretty contentious subject in the testing world. We spend a great deal of time and energy distinguishing between what a tester does while engaging with a product and what the automated tests or [checks](http://www.satisfice.com/blog/archives/856) are doing. Justifying why we need to have a person actually interact with the software instead of using robotic verification. 
 
 Automation isn't all bad though. In fact when its done reasonably well, it has some characteristics that make it downright appealing.
->**Disclaimer**: This post isn't about contradicting those benefits of automation with equally trite support for dedicated test roles on software teams. 
+   
+ + **Disclaimer**: This post isn't about contradicting the benefits of automation with equally trite statements supporting dedicated test roles on software teams. 
 
 
 #### Explicit
-Automated tests can only do what they are programmed to do. This is commonly identified a weakness of these checks, they miss the nuance and the tacit. They can't mimick a humans observation, intuition and experience. 
-The issue here is that many testers often cannot succintly convey their practices, or explain their approach. It's as though we are divinely inspired all the time. It's not that I haven't uncovered my share of bugs that fit that description, where I find the magic set of circumstances without explicit intention. I'm not spending 40+ hours a week wandering around with my [divining rods]() looking for bugs. 
+Automated tests can only do what they are programmed to do. This is commonly identified a weakness of these checks, they miss the nuance and the tacit. They can't mimic a humans observation, intuition and experience. 
+The issue here is that many testers often cannot succinctly convey their practices, or explain their approach. It's as though we are divinely inspired all the time. It's not that I haven't uncovered my share of bugs that fit that description, where I find the magic set of circumstances without explicit intention. I'm not spending 40+ hours a week wandering around with my [divining rods](https://en.wikipedia.org/wiki/Dowsing) looking for bugs. 
 
 In the engineering centered world that testers occupy it seems like a leap of faith to expect that this won't be challenged or sought to be replaced by concrete approximations with explicitly defined intentions.
 
@@ -21,7 +22,8 @@ Good automation evolves over time to maintain the symbiotic link it has with the
 ### Yeah, Yeah, Yeah 
 
 Fantastic, we've heard all this before in some form or fashion and it's gotten a little (ok, maybe a very) tiresome. The value of automation here is that the exercise of writing automated tests can help testers become better testers. 
->**Disclaimer**: This post is not about the benefits of testers learning to code.
+   
+ + **Disclaimer**: This post is not about the benefits of testers learning to code.
 
 It's about the thought exercise that has to occur. Writing an automated test involves distilling actions down into direct actionable and repeatable steps. It forces you to examine your software through a different lens. As great as humans are about identifying subtle or nuanced issues, we can be just as bad about overlooking those same types of issues. The very experience or knowledge you have may fundamentally bias your experience in a way that you miss whole classes of bugs or usability concerns. As testers we do our best to combat this with things like personas but it doesn't make the process perfect. 
 
@@ -30,10 +32,10 @@ The act of trying to automate something turns you into an infant, bumping around
 
 The act of automating also enforces repetition and pattern awareness. Part of your individual testing may be considering your products internal consistency, making sure the same behavior, patterns or workflows of existing functionality are maintained in new features. Having to build automation for those behaviors will give you an intimate awareness of them since you have to build the logic for driving through them. It will also help you recognize inconsistency since the patterns you taught your self may break down or not apply. You will then be frustrated because your tests should just work since they follow internal convention, this models the same frustration your customers may be experiencing. 
 
-### Quantifying Intentions and Verifications
+### Quantifying Intentions and Verification
 Once your automation can *walk* the education process still isn't over. You have to know what you need to test, to translate your internal testing process into actions. You may realize that not everything can be encoded into an automated check, but it will force you to reason about what you are actually doing while testing. It becomes easier to prioritize and speak definitively about your testing if you have thought about your actual process. 
 
-Automated tests are about creating approximations. As you better understand your own process and what is possible inside an automated check you are better able to identify processes that may approximate some portion of what you are phyisically doing. Let the computer do some of the heavy lifting and allow you to focus your efforts. 
+Automated tests are about creating approximations. As you better understand your own process and what is possible inside an automated check you are better able to identify processes that may approximate some portion of what you are physically doing. Let the computer do some of the heavy lifting and allow you to focus your efforts. 
 
 ### Recognizing Strengths and Weaknesses
 
