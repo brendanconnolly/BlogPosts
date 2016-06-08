@@ -6,7 +6,7 @@ Seriously though, no matter how readable it may seem to those familiar, it's eas
 
 The purpose here isn't really to teach you to code. The goal is instead to get you more comfortable with what you are seeing on the screen so you can feel a little more at ease when you pair / chat with a developer, even if just at a common vocabulary level. 
 
-Lets walk through a C# file that has a sample integration test to get a feel for some key concepts. Before we dive into the test file just a couple notes:
+Before we dive into the test file just a couple notes:
 
 C# *case sensitive*, so in theory the code below would cause an error.
 ``` cs 
@@ -18,10 +18,11 @@ You'll also see a lot of curly braces *{ }*. If you aren't used to them don't be
 
 Lastly C# uses the semi colon *;* instead of newline as the line terminating character. 
 
+With that out of the way lets walk through a C# file that has a sample integration test to get a feel for some key concepts.
 
 ### [References](https://msdn.microsoft.com/en-us/library/sf0df423.aspx) 
 
-Using statements you see above are called references. They basically serve as a declaration that the code in this file will be using functionality from the following external sources. 
+Using statements you see below are called references. They basically serve as a declaration that the code in this file will be using functionality from the following external sources. 
 
 ``` cs
 using ApprovalTests;
