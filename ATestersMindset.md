@@ -12,13 +12,17 @@ Doesn't it often have a ring of mysticism when you hear it? Like the testers pow
 
 ### A Justification
 
-A company may say we need a tester because we really need that *testers mindset* and that sounds reasonable enough right? I wonder sometimes if it's not a little insulting. Like the company is really saying, we'd rather hire a developer whose skills and value we recognize and can more easily quantify, but sometimes they have trouble recognizing their own issues so we're looking for a tester who thinks differently but we can't exactly explain it. 
+A company may say we need a tester because we really need that *testers mindset* and that sounds reasonable enough right? I wonder sometimes if it's not a little insulting. Like the company is really saying, we'd rather hire a developer whose skills and value we recognize and can more easily quantify, but sometimes our developers have trouble recognizing their own issues so we're looking for a tester who thinks differently but we can't exactly explain how. 
 
-It's not like you see development positions where the key skill is a *developer mindset*. Somehow despite years of pervasive development personality stereotypes their role and skills are distinguishable from some intrinsic and ambiguous quality or personality trait. Why does this have to be different for testers. Testers offer more than a mindset, there is skill and theory to the craft. I find it concerning that testers skills are so readily packaged up as simply a mindset, I think it reflects that while the industry is changing, that the industry still struggles to break free so much of the baggage that is tied to waterfall style projects with development and testing teams segregated from one another and the animosity that that created. 
+It's not like you see development positions where the key skill is a *developer mindset*. Somehow despite years of pervasive development personality stereotypes their role and skills are distinguishable from some intrinsic and ambiguous quality or personality trait. Why does this have to be different for testers. Testers offer more than a mindset, there is skill and theory to the craft. I find it concerning that testers skills are so readily packaged up as simply a mindset, I think it reflects that while the industry is changing, that the industry still struggles to break free so much of the baggage that is tied to waterfall style projects with development and testing teams segregated from one another and the animosity that it fostered. 
 
-### Shallow Agreement 
+### Shallow Agreement
 
+I'm not trying to say that testers don't approach interacting with software differently than the developers tasked with writing it. I'm pretty confident that most people would agree that they do. However, if asked to tangibly define attributes of that mindset I doubt the consensus would be as uniform. It's not like everyone has the same background, experience or approach to testing and that is a good thing, but that isn't unique to testing. Developers get typecast into personality profiles but the conversation doesn't stop there. It's not what makes them able to code well, it's not the sole representation of their skills. 
 
+Attributing the wide variety of skills testers bring to teams to some ethereal shared mindset allows a testers value to be relegated to commodity status. If testers don't choose to go beyond this shallow agreement and steer the conversation to demonstrable skills and knowledge we become complicit supporters of the view that anyone can test. 
 
-### A Drive to Understand
+### So What Then?
+
+The next time you hear someone refer to the *testers mindset* take it as an opportunity to start a deeper conversation about what that mindset means to them. Do what testers do, ask questions where others make assumptions, seek a deeper understanding of that persons perspective or intent, offer helpful suggestions and insight if appropriate, and learn from each other. 
 
