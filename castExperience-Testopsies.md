@@ -1,8 +1,8 @@
+![muppet autopsy](http://www.brendanconnolly.net/wp-content/uploads/2016/08/muppetautopsy.gif)
+
 Testing isn't dead but it doesn't mean we can't dig into it to better understand it.
 
-# Testopsy
-
-[Tutorial](https://www.associationforsoftwaretesting.org/conference/cast-2016/cast-2016-tutorials-2/)
+I attended the [Testopsies - Dissecting Your Testing](https://www.associationforsoftwaretesting.org/conference/cast-2016/cast-2016-tutorials-2/) tutorial at CAST 2016. Lets open up the experience and take a deeper look.
 
 ### What is Testing
 We broke up into groups to define / draw out what exactly we though testing looked like. Our group started out by creating a list of our thoughts. Later we found out we might be sharing/presenting our results to the other groups so I tried to capture our list into a [sketchnote](http://royanlee.com/?p=4414) style mind map. 
@@ -46,11 +46,15 @@ Armed with the coding system we broke up into pairs with one person as tester an
 
 ![Group Working with Michael Bolton](http://www.brendanconnolly.net/wp-content/uploads/2016/08/cast2016TestopsyGroup.jpeg)
 
-I was surprised to find that recording testing sessions was not an entirely uncommon practice amongst the group. Observation and recording leads to the question of narration / transcription. As you might expect, just viewing a testers actions does not capture with fidelity all that is going on.
+I was surprised to find that recording testing sessions was not an entirely uncommon practice amongst the group. Observation and recording leads to the question of narration / transcription. As you might expect, just viewing a testers actions does not capture with fidelity all that is going on. 
+
+You can see the video of one of the testing sessions in [Neil Studd's blog post](http://neilstudd.ghost.io/2016/08/09/cast-2016-monday-lean-coffee-tutorials/) on the tutorial. He also describes the CHRISTMAS heuristic in this session that he created during the tutorial it's definately worth the read.
 
 #### Verbalization
-I'm pretty sure most testing would look very random --> is this why others stuggle to understand its value
 
+Not surprisingly, the people doing the testing began to describe what they were doing and thinking to the observers. Speaking as an observer, I'm pretty sure most testing would look very random and possibly incoherent without something explaining the testers intent along the way. This made me wonder if this is why non-testers may struggle to understand its complexity and value since intent is not always clear from observation.
+
+I found the benefit of talking out my testing to another person helped me stay focused. It also helped my own personal test note taking by giving context for what information should be relayed. Too much explanation breaks the testing flow, but when the mix is right the slight interruptions gave me time to process what I was seeing and minimize the drift from charter. Michael Bolton referred to this as **The Pause**, it gave me just enough time to acknowledge something, a bug, a potential new charter and then comfortably move forward while staying on mission.
 
 #### Coverage
 
@@ -60,25 +64,28 @@ I'm pretty sure most testing would look very random --> is this why others stugg
 
 #### Tempo
 
-As we all took turns testing it was pretty common for the person testing to just jump into testing. The result is a hybrid bug hunt and ad-hoc learning session. This isn't a slight at those testers, it's my first inclination to poke at the app, see how it responds, learning as I go. What Michael helped clarify here was that this approach leads to generally superficial testing which in turn will most likely turn up superfiical bugs. 
+As we all took turns testing it was pretty common for the person testing to just jump into testing. The result is a hybrid bug hunt and ad-hoc learning session. This isn't a slight at those testers, it's my first inclination to poke at the app, see how it responds, learning as I go. What Michael helped clarify here was that this approach leads to generally superficial testing which in turn will most likely turn up superficial bugs. 
 
  > Every bug takes away from our coverage
 
-It's validating to find bugs, 
+It's validating to find bugs, but not all bugs are equal. Every bug you log represents time spent finding, documenting, discussing, prioritizing, fixing and retesting. This is all time spent not finding new problems.  
 
- Shift from testing to learn to testing to find
+I opted to be the observer first in my pairing, so when my turn came up to be the tester my first action was to set a charter for my time.  Walking up to testing something new I feel this need to try and cover everything. It's overwhelming just trying to find a starting place. It's surprising how just expressing your intent immediately filters out the surrounding noise. It sets expectations for both the person performing the testing and those observing. 
 
-before diving in, stop establish charter for what you are going to do.
+We also discussed using structuring testing so that initially you are testing to learn, then shifting your testing to find bugs. This inverts the typical workflow. You might uncover problems as you are learning but that doesn't mean you need to log them all in real-time. 
 
 ### Introspection, Intent & Self Awareness
 
-without an explicit mission implicit missions take over 
+How often do people say they wonder where the day went, or wonder why they can't get anything done? At some level these expressions just indicate some level of self-awareness and lack of intent. Without an explicit mission, implicit missions take over.
 
-consider reforming the charter to match what was actually was covered
+At its core the tutorial using introspection of actions to gain self-awareness. Then armed with this awareness adjust and refine your processes. I'll admit while I enjoyed the tutorial some of my first impressions were that some content felt very intuitive, like a more formal presentation of things I intrinsically understood. 
 
+I wasn't really sure how or if I was going to write about it. Something interesting happened when I did sit down and start writing, I started going over my notes, reflecting on what happened. Thinking about the day step by step, activity by activity, categorizing, measuring, analyzing  I realized I was doing exactly what Michael described and I was finding new things that I hadn't picked up on the initially. 
 
-> If we knew all the requirements we wouldn't call it development we'd call it construction.
-Requirements are developed.
+What is blowing my mind a bit as I write this is how the experience I'm describing maps directly to the superficial testing leads to superficial bugs scenario described above. I was in the tutorial eagerly trying to soak everything in waiting for insight to be dropped into my lap. Then the result was average, I caught some things (probably the more obvious) and missed some of the nuanced and more complex things. 
+
+Given this result I'd be even more curious to rewatch the session and work through the feedback cycle again and see what else I can glean.
+
 
 
 
