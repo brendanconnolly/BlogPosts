@@ -24,5 +24,20 @@ Once you've learned something it is incredibly difficult to remember how it befo
 
 Why Stay A Tester
 
+
+Internal Usability
+
+We make a big focus out of the usability of our products. 
+
+Approach Process Like Testing Software
+
+### Avoid Tribal Knowledge
+
+### Identify Dead Zones
+
+### Friction Free
+
+
+
  
 

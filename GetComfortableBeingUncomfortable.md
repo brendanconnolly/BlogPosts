@@ -10,8 +10,6 @@ Being a tester means doing things that are generally uncomfortable every day.
 
 ### Setting Others at Ease
 
-
-
-### Agents for Change
+Ev
 
 

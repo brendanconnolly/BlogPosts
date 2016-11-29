@@ -6,9 +6,9 @@ You ever wonder what people actually mean when thy say this? I do, every time I 
 
 Doesn't it often have a ring of mysticism when you hear it? Like the testers power is somehow fueled by the spirits, beyond the comprehension of the average developer.  Granted, I'll admit I've found my share of bugs where I can't explain exactly what lead me down a particular path of testing. Intuition, good instincts, hunches is that what teams are looking for? 
 
- People often deify things that they don't understand.  It's like sign of respect, we may not comprehend the powers at play but we do not wish to anger them either. For a role that is so often vilified or demeaned that reverence feels like a warm embrace. 
+People often deify things that they don't understand.  It's like sign of respect, we may not comprehend the powers at play but we do not wish to anger them either. For a role that is so often vilified or demeaned that reverence feels like a warm embrace. 
  
- That mysticism scares me, the biggest issue testers face in our industry is the lack or understanding about the skills and value testers can bring to a team. Acting as an offering to appease the testing gods may keep some of us employed but it does nothing to advance testing. Our lot in the industry remains unchanged. We end up at the mercy of the same force we were brought in to assuage, only as good as the last bug we found, valueless when bugs slip through the cracks...
+That mysticism scares me, the biggest issue testers face in our industry is the lack or understanding about the skills and value testers can bring to a team. Acting as an offering to appease the testing gods may keep some of us employed but it does nothing to advance testing. Our lot in the industry remains unchanged. We end up at the mercy of the same force we were brought in to assuage, only as good as the last bug we found, valueless when bugs slip through the cracks...
 
 ### A Justification
 
