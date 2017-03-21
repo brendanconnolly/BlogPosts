@@ -1,6 +1,9 @@
 Besides communicating with an endpoint a major aspect of api testing is getting data into requests and out of responses. Out of the box SoapUI supports XPath, XQuery and JsonPath for both property transfers and assertions. There is no doubt that those are some powerful tools, but but for complex objects or if namespaces are involved they can be challenging to create, troubleshoot, or maintain. 
 
-Groovy to the rescue. Built in to Groovy are two classes [XmlSlurper](http://docs.groovy-lang.org/latest/html/api/groovy/util/XmlSlurper.html) and [JsonSlurper](http://docs.groovy-lang.org/latest/html/gapi/groovy/json/JsonSlurper.html) that make parsing xml and json for logging, transfers and assertions clean and easy. These classes will parse the response contents and allow you to easily access (using the dot or bracket syntax) even deeply nested properties
+### Groovy to the Rescue
+
+Built in to Groovy are two classes [XmlSlurper](http://docs.groovy-lang.org/latest/html/api/groovy/util/XmlSlurper.html) and [JsonSlurper](http://docs.groovy-lang.org/latest/html/gapi/groovy/json/JsonSlurper.html) that make parsing xml and json for logging, transfers and assertions clean and easy. These classes will parse the response contents and allow you to easily access (using the dot or bracket syntax) even deeply nested properties.
+
 ```  Groovy
 //log the category name using bracket syntax
 log.info(parsedResponse["category"]["name"])
@@ -9,15 +12,19 @@ log.info(parsedResponse["category"]["name"])
 log.info(parsedResponse.category.name)
 ```
 
+If you want to play along we'll be using the [Swagger Petstore API](http://petstore.swagger.io/)
+
 ### Property Transfer 
 
 The easiest way to do this is to use a Groovy Test Step in conjunction with a property to act as a placeholder for the dynamic value.
 
 In this example I have added a property called petName to the testcase.
 
+Then right click on the testcase and and add a Groovy Script step.
+
 ![add groovy test step](AddGroovyStep.png)
 
-In the test step window 
+In the test step window we'll enter the following script:
 
 ``` Groovy
 import groovy.json.JsonSlurper
