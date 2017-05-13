@@ -1,9 +1,0 @@
-Besides communicating with an endpoint a major aspect of api testing is getting data into requests and out of responses. Out of the box SoapUI supports XPath, XQuery and JsonPath for both property transfers and assertions. There is no doubt that those are some powerful tools, but but for complex objects or if namespaces are involved they can be challenging to create, troubleshoot, or maintain. 
-
-Groovy to the rescue. Built in to Groovy are two classes [XmlSlurper]() and [JsonSlurper]() that make parsing xml and json for logging, transfers and assertions clean and easy. 
-
-### Setup
-
-### Property Transfer 
-
-### Assertions
