@@ -24,6 +24,11 @@ Lets coopt the development concept and rebrand...
 
 #### Three Laws Of Test Driven Testing
 
+>
+    1. You can't perform any testing until you have identified and defined an objective
+    2. You can't do any testing outside the the minimum to satisfy your objective 
+    3. 
+
 
 #### Intention
 
