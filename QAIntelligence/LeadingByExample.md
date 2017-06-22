@@ -20,16 +20,37 @@ Just like development, testers need common practices and vocabulary to be able t
 
 It's not a slight to testing, testing simply isn't the dominant role or activity on a software team. This means testing practices and vocabulary need to align with accepted development standards, processes and terms. Additional semantics and processes only serve to invoke the historical baggage of testing as a bureaucratic and costly process. 
 
-## Three C's of Alignment
+The process of aligning is a three step process:
 
 ### Comprehend
+Everything begins with comprehending the principles and benefits of the methodology or process. This doesn't mean you need to become a world class expert in a subject but you need a comfortable working understanding. 
 
 ### Co-Opt
+Armed with new understanding, we can identify when core concepts and vocabulary can be recontextualized to address or explain aspects of testing. This allows you to frame testing activities into processes that your team has already accepted and sees value in. 
 
 ### Communicate
+The simple act of attempting to understand the core concepts to the point of being able to better engage in team discussions can have a dramatic impact on peoples perceptions of your abilities. You'd be surprised how eager and excited people are to share, teach or mentor you once you show interest.
 
-## Automation
+This understanding grants a sort of credibility, and you can begin to integrate the co-opted versions of these processes into discussions about your work. 
+
+Lets look at a couple examples:
+
+## Test Automation
+Automation has already followed this model it is an outcome of manufacturing's influence on software development. Organizations recognized that to gain efficiency and speed activities they needed to leverage computing power the way assembly lines utilized robotics. 
+
+People saw a working blueprint and studied it. In gaining understanding were able to take those ideas and co-opt them into their own domain. This made acceptance and communication of these new ideas easier since there was a working and tangible example to point to. 
+
+Automation is also the friendliest boundary between developers, testers and even product team members. It's a safe place where people can learn from each other, developers can talk test, and testers can talk code since generally each respective group isn't expected to be an expert in the others area but they are expected to collaborate on a shared output.  
+
 
 ## Sprint Planning
+In sprint planning teams create estimates and identify the tasks required to complete user stories. Developers are commonly expected to dissect their work into functional tasks that are easily measurable, describable and shareable. 
+
+This is much less likely to be true for testing work, its more likely to be a single "test it" task. A more detailed account of the testing effort may be tracked in separate systems or documented in test plans. Why is should testing functionality need to be tracked separately from implementing functionality?  It's because a testers are outsiders whose process is less defined and understood. At its root it is an alignment issue. 
+
+So we recognize there is dissonance between a testers role in sprint planning and a developers. First we seek to comprehend why it is developers are expected to provide such transparency for their work.
+
+
+
 
 ## Code Review
