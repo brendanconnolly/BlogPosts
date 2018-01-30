@@ -15,6 +15,6 @@ The intent of the test remains unchanged, how the test was setup is an artifact 
 The same process applies to your product if you add a mobile app or migrate from a desktop to web based experience. By having core of your regression testing  centered around what an end user intends to do rather than explicitly how or where things are done testers can more deeply 
 
 ### Regression is like the mission statement of your product. 
-
+General isn't vague, it's about having core understanding of users needs that people can grasp and uphold. Regression is about ensuring that service legacy is upheld in the face of new changes. 
 
 
