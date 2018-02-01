@@ -24,9 +24,12 @@ regression is about evaluating/ investigating unintended changes to current beha
 Changes in consistency require more than just verification. Customer expections need to be managed. 
 
 
+### Example changing gears / transmissions 
+Manual or Automatic across the car industry you see the same indicators for gears. Even when they many not exactly be in line with the underlying technology in the car. In ht erare occurences when a car does not have traditional gear markers isnt the first reaction shock and curiousity? Followed by confusion, what does this do and why is it different.
+
+
 ########### Notes
 examples as separate slides.
 
-
-
-
+## Regression is like the mission statement of your product. 
+General isn't vague, it's about having core understanding of users needs that people can grasp and uphold. Regression is about ensuring that service legacy is upheld in the face of new changes. 
