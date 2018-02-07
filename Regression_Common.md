@@ -2,6 +2,7 @@
 ## What is Common?
 
 > just satisfying accustomed criteria 
+
 This definition is related to the concept of "*common decency*"
 
 There's a secondary definition that colors our view
@@ -35,10 +36,11 @@ Each time you test something there are differences, whether intentional or not. 
 Regression is an assessment rather than an investigation. Feature testing is where the deep dive investigation occurs. Regression testing is the follow up appointment to assess the current state of things. 
 
 ## Know your Elevator Pitch
+When people talk about complete testing or coverage, they have uncertainty about changes and they are looking for is assurance that risk is being managed. Trying to explain that complete testing is impossible only feeds that uncertainty.
 
 The place to strive for *complete* is in test strategy. 
 
-When people talk about complete testing or coverage, they have uncertainty about changes and they are looking for is assurance that risk is being managed. Trying to explain that complete testing is impossible only feeds that uncertainty. The solution as a tester isn't to test more, it's to have a plan. I don't mean a massive document using old test plan templates, you want a test strategy that you can explain to someone in a couple minutes.
+ The solution as a tester isn't to test more, it's to have a plan. I don't mean a massive document using old test plan templates. You want a test strategy that you can explain to someone in a couple minutes.
 
 This doesn't mean your strategy ends with the elevator pitch. The pitch just sells certainty, you still need to be able to dive deeper to explain motivations and execution. The goal is to refocus issues to be framed in the evolution of strategy not on people and the amount of testing they performed. Strategy can grow incrementally, and can scale, exhaustive attempts at complete regression testing is a sunk cost, which benefits are lost the moment the product ships.
 
