@@ -11,3 +11,9 @@ If you aren't already familiar with the area that you are regression testing it 
 
 New bugs in existing code just mean more time spent investigating functionality that may only tangentially be related to release. It's not that they may not be real bugs but at this point they are out in the field and it takes time to confirm reproduction steps, log the bug, etc.
 
+
+
+Regression isn't about rediscovery, if it was a bug before, it's still a bug now. 
+
+Each time you test something there are differences, whether intentional or not. This may include things like: system state, application state,  rate/speed of execution, input values, etc. If variances between test runs / regression sweeps uncover new bugs that is great, it doesn't mean that testers should be explicitly seeking out these differences. 
+
