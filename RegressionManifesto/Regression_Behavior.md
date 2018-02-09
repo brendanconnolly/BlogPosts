@@ -1,3 +1,9 @@
+## What is Behavior?
+> the way in which something functions or operates 
+
+## What are Bugs?
+> an unexpected defect, fault, flaw, or imperfection 
+
 ## Behavior Over Bugs
 
 Testing new feature functionality can be an adventure. There may be clear cut expectations about how things *should* work, but its not unusual for testers to establish and work with developers and product team to define / refine the workflow. At the same time testers are attempting to stress the software an uncover and shake out bugs. 

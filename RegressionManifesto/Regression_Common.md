@@ -41,7 +41,7 @@ Every tester around release time sooner or later gets the a classic questions li
 
 The person asking this isn't usually a tester, and it's fairly likely they aren't really all that interested in understanding testing. 
 
-What you need is [elevator pitch](https://www.themuse.com/advice/perfect-pitch-how-to-nail-your-elevator-speech).
+What you need is an [elevator pitch](https://www.themuse.com/advice/perfect-pitch-how-to-nail-your-elevator-speech).
 > a concise, compelling introduction that can be communicated in the amount of time it takes someone to ride the elevator to her floor.
 
 When people talk about complete testing or coverage, they have uncertainty about changes and they are looking for is assurance that risk is being managed. Trying to explain that complete testing is impossible only feeds that uncertainty.
