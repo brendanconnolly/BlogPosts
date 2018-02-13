@@ -13,17 +13,27 @@ Bugs can be thought of like personality flaws. Some personality flaws are deal b
 
 ## Regression isn't about Rediscovery
 
-Regression testing isn't a no holds barred bug hunt, we are trying to spot anomalies. Unexpected behavior in areas that that are either thought to be unrelated or functionally equivalent to the existing release version. As time and new releases and employees pass by different testers are going to be tasked with regression testing existing functionality. It's very easy to fall into attempting to blaze a trail retesting what has already been done, only now its weeks, months, years out of peoples minds.
+Regression testing isn't a no holds barred bug hunt, we are trying to spot anomalies. Unexpected behavior in areas that that are either thought to be unrelated or functionally equivalent to the existing release version. 
+
+As time, new releases and employees pass by, different testers are going to be tasked with regression testing existing functionality. It's very easy to fall into attempting to blaze a trail retesting what has already been done, only now its weeks, months, years out of peoples minds.
+
+If you aren't already familiar with the area that you are regression testing it may be worth starting your regression testing on your current release before you dive into the new release. Then you to start to build up a relationship with the product as it is, rather than what it might be. 
+
+You can refine your radar for issues without clouding your judgement with the overhead of the possibility any problems are regressions from current work. 
+
+If you start seeing issues in current release, then you pump your brakes. Don't let existing bugs block progress, take notes of what you are seeing then re-evaluate you approach. This might be a good time to ask team members some questions to make sure your expectations match up with domain or user requirements.
 
 ### Why not focus on Bugs
 
 Each time you test something there are differences, whether intentional or not. This may include things like: system state, application state,  rate/speed of execution, input values, etc. If variances between test runs / regression sweeps uncover new bugs that is great, it doesn't mean that testers should be explicitly seeking out these differences. 
 
-An obvious problem here is even if you uncover gaps in previous testing efforts there may not be time or interest in resolving newly uncovered issues. You might be asking why a business wouldn't want to address these issues, or why a previous tester didn't catch these bugs. Before you count yourself an expert, consider that customers have not reported these issues. 
+You might be asking why a business wouldn't want to address these issues, or why a previous tester didn't catch these bugs? Before you count yourself an expert, consider that customers have not reported these issues.
 
-New bugs in existing code just mean more time spent investigating functionality that may only tangentially be related to release. It's not that they may not be real bugs but at this point they are out in the field and it takes time to confirm reproduction steps, log the bug, etc.
+We all have personality quirks, some may rise to the level of character flaws and effect our relationships with other people, and others are overlooked or not noticed. 
 
-We all have personality quirks, some may rise to the level of character flaws and effect our relationships with other people, and others are overlooked or not noticed. It's the same with software, if it was a bug before, it's still a bug now. The presence of bugs, or lack there of is not necessarily an indication of quality. It may seem counter-intuitive but not all bugs require a fix, existence is not the main driver for resolution a defect needs to represent potential impact to users etc. 
+It's the same with software, if it was a bug before, it's still a bug now. The presence of bugs, or lack there of is not necessarily an indication of quality. It may seem counter-intuitive but not all bugs require a fix, existence is not the main driver for resolution a defect needs to represent potential impact to users etc. 
+
+New bugs in existing code just mean more time spent investigating functionality that may only tangentially be related to release. It's not that they may not be real bugs but at this point they are out in the field and it takes time to confirm reproduction steps, log the bug, etc. The bugs you find right now may just be distractions during release time. 
 
 ## Boundaries of Trust
 
@@ -31,22 +41,25 @@ We all have personality quirks, some may rise to the level of character flaws an
 
 People have a sliding scale of trust for the individuals we accept into our lives. There are acceptable levels of trust required for different roles in our life depend on the circumstances in which we interact. 
 
-We group people into these categories naturally, coworkers, bosses,friends, acquaintances, family... These relationships are determined through experience, intuition and this is reinforced over the course of time. As new events and shared experiences are accrued the status of the relationship is re-evaluated. Co-workers may be promoted to friends, long term friends can naturally progress to a familial connections. Conversely, we may decide to let some relationships fall to the side. 
+We group people into these categories naturally, coworkers, bosses,friends, acquaintances, family... These relationships are determined through experience, intuition and this is reinforced over the course of time. 
 
-Think about who you party with and why. You are out to have a good time, you want comfortable with these people. At a minimum you want people who won't detract from the experience. As the night progresses and depending on how hard you party, the risk level might rise, maybe you need people you trust with your privacy and well being.  
+As new events and shared experiences are accrued the status of the relationship is re-evaluated. Co-workers may be promoted to friends, long term friends can naturally progress to a familial connections. Conversely, we may decide to let some relationships fall to the side.
 
-It's not any different with software, people develop relationships with it and related expectations. The behavior of software needs to respect the type relationship users are required to have with it. <expand>
+We don't stop to redefine our friendship with someone before we answer if we are up for karaoke this weekend. 
 
+Think about who you party with and why. When you are out to have a good time, you want to be comfortable, at a minimum you want people who won't detract from the experience. As the night progresses and depending on how hard you party, the risk level might rise. Maybe you need people you trust with your privacy and well being.  
+
+It's not any different with software, users develop relationships with it and that in turn adds related expectations. The behavior of software needs to respect the type relationship users are required to have with it. 
 
 ### Know your Role
 
-A go / no go decision is based on the perceived risk of the action and the participants. This *perceived risk* is a summary of previous experience, a snapshot. It is not a detailed unwinding of all past events. In the party metaphor, its a question of would I do this type of activity with these types of people. 
+Depending on the market you serve, there are drastically different requirements for what makes a shippable product. 
 
-If you aren't already familiar with the area that you are regression testing it may be worth starting your regression testing on your current release before you dive into the new release. This will allow you to start to build up a relationship with the product as it is, rather than what it might be. You cna refine your radar for issues without clouding your judgement with the overhead of the possibility any problems are regressions from current work. 
+Go / no go decisions are based on the perceived risk of the action and the participants. This *perceived risk* is a summary of previous experience, a snapshot. It is not a detailed unwinding of all past events. In the party metaphor, its a question of would I do this type of activity with these types of people.  
 
-If you start seeing issues in current release, then you pump your brakes, take notes of what you are seeing then re-evaluate you approach. Don't let existing bugs block progress, any bugs you find right now are mostly likely just distractions during release time.  
+What works for an app on a mobile phone is going to be different than a personal medical device. Not all distinctions are so easily discernible, but as testers it's critically important to maintain a holistic view of software. This includes integrating understanding of the personality of the product, its specific behaviors and knowledge gained throughout the development life cycle. 
 
-In software, testers develop these relations categorizations at the time of feature testing. We actively search out bugs, so we can effectively define boundaries of trust with the system under test. So as release approaches we can quickly communicate these boundaries as a proxy for our users, to enable better, more informed decision making by product owners. 
+Testers develop of the behavioral familiarity relationships and categorizations at the time of feature testing. We actively search out bugs, so we can effectively define boundaries of trust with the system under test. When release approaches we can then quickly communicate these boundaries as a proxy for our users, to enable better, more informed decision making by product owners. 
 
 
  
