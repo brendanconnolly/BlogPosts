@@ -1,5 +1,15 @@
 ## Consistency Over Correctness
 
+## What is Consistency?
+> agreement or harmony of parts or features to one another or a whole
+
+
+## What is Correctness?
+> The quality or state of being free from error; accuracy.
+
+an interesting alternate 
+> to scold, rebuke, or punish in order to improve
+
 ### Why does Consistency matter?
 Consistent software behavior is what keeps our customers comfortable. Think of it like renting a car, you know how to drive, but the moment you step into that rental you immediately start trying to acclimate yourself to a sea of changes compared to your own car. The process can be frustrating, but at least its expected. 
 
@@ -33,3 +43,5 @@ examples as separate slides.
 
 ## Regression is like the mission statement of your product. 
 General isn't vague, it's about having core understanding of users needs that people can grasp and uphold. Regression is about ensuring that service legacy is upheld in the face of new changes. 
+
+using the donald rumsfeld known knowns quote to categorize.
