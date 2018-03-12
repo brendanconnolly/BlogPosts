@@ -16,7 +16,7 @@ What happens next is that someone sits down to solve a high level problem with a
 
 ## Software's a Journey not a Destination 
 
-Everyone's got deadlines, the immediate need is functioning code in a timely manner but, building software is almost never a one way trip. The fastest code to write isn't necessarily mean the code is the fastest to maintain, and [teams in general spend more time in existing code than writing new code.]((https://blog.codinghorror.com/when-understanding-means-rewriting/)) 
+Everyone's got deadlines, the immediate need is functioning code in a timely manner but, building software is almost never a one way trip. The fastest code to write isn't necessarily mean the code is the fastest to maintain, and [teams in general spend more time in existing code than writing new code.](https://blog.codinghorror.com/when-understanding-means-rewriting/)
  
 The requirement to create a failing test first forces the developer to consider how the end result of her code will be utilized. This shifts the immediate focus away from completing the feature as a whole. The developer then becomes both the first consumer and reviewer of their code, work transitions away from organic growth to explicit intent.
 
@@ -35,13 +35,12 @@ Contexts vary, so should our approach. Just as the first law of TDD acts as a le
 
 This likely sounds just as counter-intuitive as the first law of TDD. If you are new to a project, how can you identify and clearly define objectives about software you know little about? 
 
-One of the concepts TDD is associated with is [emergent design](https://en.wikipedia.org/wiki/Emergent_Design). This is something we can recognize from agile replacing waterfall development practices, idea that a better more effective design will result working iteratively rather than the effort to design everything upfront. Just like adopting agile process didn't mean there was no planning, TDD doesn't presuppose all high level design or architecture discussions or considerations.
+One of the concepts TDD is associated with is [emergent design](https://en.wikipedia.org/wiki/Emergent_Design). This is something we can recognize from agile replacing waterfall development practices, idea that a better more effective design will result working iteratively rather than the effort to design everything upfront. Just like adopting agile process didn't mean there was no planning, TDD doesn't presuppose all high level design or architecture discussions or considerations. 
 
+The same applies to testing, you can have a strategy without needing a detailed test plan written up front. It's also fine to have your first step be a scouting mission. Step through the software with purposeful intent to do reconnaissance, but know and follow the [rules of engagement](https://en.wikipedia.org/wiki/Rules_of_engagement). It's not a time for bugs, get the lay of the land, get back to base and come up with a plan. 
 
+## Expedition vs. Exploration
 
-
-
-## Exploration vs. Expedition
-
+Let testers be explorers, but manage the project like an expedition. 
 
 
