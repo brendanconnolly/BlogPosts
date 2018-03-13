@@ -12,14 +12,14 @@ TDD is a discipline that on the individual developer level is a microcosm of the
 ### A Bugs Life
 When you sit down and want to start testing, what happens the moment you think you might have a bug on your hands? Do you dig in? Iterate over the same scenario trying to nail down the reproduction steps? 
 
-Sometimes the bugs you find feel like [merit badges]() testers get to wear around. Medals of honor that represent the value that a tester brought to the team. 
+Sometimes the bugs you find feel like [merit badges](http://meritbadge.org/wiki/index.php/Main_Page) testers get to wear around. Medals of honor that represent the value that a tester brought to the team. 
 
 In reality bugs are a distraction, wouldn't you rather have be objectively evaluating software on its merits rather than its flaws? Outside of the time sink for other team members prioritizing and resolving bugs, the impact on a tester is severe. Testers cycle through the discovery process, then begin defining the bug through reproduction steps. Next might be refining the reproduction steps, the investigation of related areas to get a sense of scope and impact. Then we transition to the reporting process, logging and communicating possibly even defending the bug.
 
 ### Functionally Focused
 It's not just bugs though, there many dimensions to testing. That feature that has different roles or personas associated with it. It might seem faster to address all the functionality at once, switching accounts as you step through. Maybe you start peek at some other minor changes while you are testing a moderately related change. 
 
-It might seem like no big deal, but it's a distraction. Distractions, even small ones add up and add friction to work. Friction slows throughput.That bug you thought you saw, it'll still be there once you wrap up your current objective. Tackle those related tasks in series rather than attempting to do it in parralel. Speed doesn't have to be measured in how fast we do multiple things, let your speed via throughput.
+It might seem like no big deal, but it's a distraction. Distractions, even small ones add up and add friction to work. Friction slows throughput.That bug you thought you saw, it'll still be there once you wrap up your current objective. Tackle those related tasks in series rather than attempting to do it in parallel. Speed doesn't have to be measured in how fast we do multiple things, let your speed via throughput.
 
 ## Second Law of Test Driven Testing 
 > 1. Test only enough to satisfy the objective
