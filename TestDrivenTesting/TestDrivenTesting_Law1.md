@@ -37,10 +37,10 @@ This likely sounds just as counter-intuitive as the first law of TDD. If you are
 
 One of the concepts TDD is associated with is [emergent design](https://en.wikipedia.org/wiki/Emergent_Design). This is something we can recognize from agile replacing waterfall development practices, idea that a better more effective design will result working iteratively rather than the effort to design everything upfront. Just like adopting agile process didn't mean there was no planning, TDD doesn't presuppose all high level design or architecture discussions or considerations. 
 
-The same applies to testing, you can have a strategy without needing a detailed test plan written up front. It's also fine to have your first step be a scouting mission. Step through the software with purposeful intent to do reconnaissance, but know and follow the [rules of engagement](https://en.wikipedia.org/wiki/Rules_of_engagement). It's not a time for bugs, get the lay of the land, get back to base and come up with a plan. 
+The same applies to testing, you can have a strategy without needing a detailed test plan written up front. It's also fine to have your first step be a scouting mission. Step through the software with purposeful intent to do reconnaissance, but know and follow the [rules of engagement](https://en.wikipedia.org/wiki/Rules_of_engagement).
 
 ## Expedition vs. Exploration
 
-Let testers be explorers, but manage the project like an expedition. 
+Let testers be explorers, but manage the project like an expedition. The purpose for exploration is discovery. The purpose of expeditions are a little different though. An expedition has a specific purpose a goal. Start with a reconaissance mission, regroup and iterate. When you are gathering information, don't engage with bugs, stay focused on your objective. If you notice some suspicious behavior take note and move on. 
 
 
