@@ -22,7 +22,7 @@ It's not just bugs though, there many dimensions to testing. That feature that h
 It might seem like no big deal, but it's a distraction. Distractions, even small ones add up and add friction to work. Friction slows throughput.That bug you thought you saw, it'll still be there once you wrap up your current objective. Tackle those related tasks in series rather than attempting to do it in parallel. Speed doesn't have to be measured in how fast we do multiple things, let your speed via throughput.
 
 ## Second Law of Test Driven Testing 
-> 1. Test only enough to satisfy the objective
+> 2. Test only enough to satisfy the objective
 
 ## Joy comes in sips, not gulps 
 ### \- Sharon Draper
