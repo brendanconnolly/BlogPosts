@@ -3,26 +3,32 @@ The first law of [Test Driven Testing]() challenges a tester to not begin testin
 
 The second of the [three simple laws of TDD](http://programmer.97things.oreilly.com/wiki/index.php/The_Three_Laws_of_Test-Driven_Development) helps to keep the developer inside a tight feedback loop. 
 
->2. You are not allowed to write any more of a unit test than is sufficient to fail; and compilation failures are failures.
+### 2. You are not allowed to write any more of a unit test than is sufficient to fail; and compilation failures are failures.
 
 TDD is a discipline that on the individual developer level is a microcosm of the transition from waterfall to agile process.  We don't want to let what we think we already know drive our actions. We don't dive into attempting to solve complex problems. We want to work small and iterate, letting the feedback cycle propel us forward. 
 
+When testers are given a new feature to test, it's like arriving in a new place, knowing you need to get somewhere but your only tool is the old wrinkled map in the glove compartment of the rental car. 
+
+Staring at the map, you are trying to figure out where you are, where you want to be and how you might get there. You are forced to make decisions when you know the least. When you hit any obstacle, you hit a traffic, see that construction has closed the roads or maybe a detour leaves you off your intended route, you may be forced to re-evaluate your entire approach. 
+
 ## Narrowly Focused Intentions
 
-### A Bugs Life
-When you sit down and want to start testing, what happens the moment you think you might have a bug on your hands? Do you dig in? Iterate over the same scenario trying to nail down the reproduction steps? 
+Once you start executing on a plan or strategy, it's easy to for the original goal to slip out of focus and be replaced with goal of sticking to the plan we spent so long creating. 
 
-Sometimes the bugs you find feel like [merit badges](http://meritbadge.org/wiki/index.php/Main_Page) testers get to wear around. Medals of honor that represent the value that a tester brought to the team. 
+It's ony natural plans provide a sense of control a feeling of certainty, everyone is more comfortable knowing the work is all planned out. 
 
-In reality bugs are a distraction, wouldn't you rather have be objectively evaluating software on its merits rather than its flaws? Outside of the time sink for other team members prioritizing and resolving bugs, the impact on a tester is severe. Testers cycle through the discovery process, then begin defining the bug through reproduction steps. Next might be refining the reproduction steps, the investigation of related areas to get a sense of scope and impact. Then we transition to the reporting process, logging and communicating possibly even defending the bug.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3EvOLJMmFJU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-### Functionally Focused
-It's not just bugs though, there many dimensions to testing. That feature that has different roles or personas associated with it. It might seem faster to address all the functionality at once, switching accounts as you step through. Maybe you start peek at some other minor changes while you are testing a moderately related change. 
+What we see time and time again is that things don't go according to plan. At a project level, teams work in sprints because the shorter term the commitments the less risk there is that the ground underfoot will shift. It's easier to guarantee business priority won't shift for 2 weeks than it is for 2 months. 
 
-It might seem like no big deal, but it's a distraction. Distractions, even small ones add up and add friction to work. Friction slows throughput.That bug you thought you saw, it'll still be there once you wrap up your current objective. Tackle those related tasks in series rather than attempting to do it in parallel. Speed doesn't have to be measured in how fast we do multiple things, let your speed via throughput.
+We want to strive to scale that same reasoning down from a project level consideration to an individual task level concern. The moment we decide on an entire route, human nature will kick in and the [sunk cost fallacy](https://en.wikipedia.org/wiki/Sunk_cost) may drive us to continue following a plan even as we start to recognize its failings or limitations.
+
+Instead of planning our complete route up front, what if instead we decided to approach the journey as a series distance intervals resulting in arriving at the destination. We could have an optimal route in mind, but the plan would involve pulling over at each distance interval to evaluate our course. We replace a plan and the more rigid psychological baggage that goes along with it with a strategy accounts for the inevitability of disruption.
 
 ## Second Law of Test Driven Testing 
-> 2. Test only enough to satisfy the objective
+### 2. Test only enough to satisfy the objective
+
+Even as formal test plans have gone out of fashion, its easy to fall into approaching testing in a destination oriented fashion. Just enabling the shipping of releases, introduces a bias that can be hard to overcome while testing and continues to enable the waterfall notion of testers as gatekeepers. We want to structure testing in such a manner that the information harvested yields the most feedback about the system under test. 
 
 ## Joy comes in sips, not gulps 
 ### \- Sharon Draper
@@ -40,7 +46,7 @@ Stay focused on your objective and savor it. Let each objective breathe, if you 
 
 ## Deep Work
 
-We want to drive our efforts to breaking down work into chunks that we can accomplish inside a distraction free time-box. The more we can structure testing efforts using effective [time management](http://www.brendanconnolly.net/a-time-for-test/)the greater insight and productivity you can expect.
+We want to drive our efforts to breaking down work into chunks that we can accomplish inside a distraction free time-box. The more we can structure testing efforts using effective [time management](http://www.brendanconnolly.net/a-time-for-test/) the greater insight and productivity you can expect.
 
 > To produce at your peak level you need to work for extended periods with full concentration on a single task free from distraction.
 
