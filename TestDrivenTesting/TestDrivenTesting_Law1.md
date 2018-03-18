@@ -1,8 +1,8 @@
 
 
-Test Driven Development is rooted in a test first approach to  developing software. This is concretely defined in the first of the [three simple laws of TDD](http://programmer.97things.oreilly.com/wiki/index.php/The_Three_Laws_of_Test-Driven_Development):
+Test Driven Development is rooted in a test first approach to developing software. This is concretely defined in the first of the [three simple laws of TDD](http://programmer.97things.oreilly.com/wiki/index.php/The_Three_Laws_of_Test-Driven_Development):
 
-> 1. You are not allowed to write any production code unless it is to make a failing unit test pass
+### 1. You are not allowed to write any production code unless it is to make a failing unit test pass
 
 This is a pretty counter intuitive concept, it flips the traditional development process on its head. To those that aren't already believers in the benefits of TDD, you can expect some immediate and serious [side eye]() at the very thought of this.  
 
@@ -31,7 +31,7 @@ While exploratory testing, testers efforts can sometimes drift, ending up meande
 Contexts vary, so should our approach. Just as the first law of TDD acts as a lens to focus on structuring code in an intentional and testable fashion, testers can benefit from a guiding principle to concentrate their actions. 
 
 ## First Law of Test Driven Testing 
-> 1. No testing unless you have identified and defined objective
+### 1. No testing unless you have identified and defined an objective
 
 This likely sounds just as counter-intuitive as the first law of TDD. If you are new to a project, how can you identify and clearly define objectives about software you know little about? 
 
@@ -41,6 +41,6 @@ The same applies to testing, you can have a strategy without needing a detailed 
 
 ## Expedition vs. Exploration
 
-Let testers be explorers, but manage the project like an expedition. The purpose for exploration is discovery. The purpose of expeditions are a little different though. An expedition has a specific purpose a goal. Start with a reconaissance mission, regroup and iterate. When you are gathering information, don't engage with bugs, stay focused on your objective. If you notice some suspicious behavior take note and move on. 
+Let testers be explorers, but manage the project like an expedition. The purpose for exploration is discovery. The purpose of expeditions are a little different though. An expedition has a specific purpose a goal. Start with a reconaissance mission, regroup and iterate. 
 
 
