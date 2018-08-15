@@ -17,56 +17,63 @@ The ownership of testing acting as a means of identity really resonated with me.
 > Agile Challenges our definition of testing and its ownership
 
 > DevOps pushes testing outwards
-expanding and enabling testing in production. Production is no longer reserved for fully formed features, production becomes a shared workplace for customers and engineers. Shipping doesn't mean done, it just means ready to evaluate in the realm of our customers. feature flags isolate changes...
+
+It expands and enables testing in production. Production is no longer reserved for fully formed features, production becomes a shared workplace for customers and engineers. Shipping doesn't mean done, it just means ready to evaluate in the realm of our customers. feature flags isolate changes...
 
 Developers can't punt code over the wall because they now have  direct line of visibility and responsibility to customers. Testers don't need to be quality cops, we act as a service to developers, since developers own supporting features as much as creating them. Testers are no longer shackled to quality through testing. 
 
+> Testers may struggle to find the balance of investigating new features without impeding release
 
-> Testers may struggle to find the balance of investigating new features without impending release
+With small frequent changes, we can't be focused on only executing tests. Testers are required to act more as oracles of insight, tracking and anticipating causality of changes. 
 
-With small frequent changes, we can't be focused on executing tests. Testers are required to act more as oracles of insight, tracking causality 
+## Testing in a DevOps Culture
 
-Monitoring over Automating, automation seems more of a means to hold fast to old tester activities in a changing world. Do the manual faster. This kind of testing wasn't great when we had months between releases in waterfall, it wasn't great in Agile when testing could easily slip into a sprint behind dev, and it certainly feels misguided now. 
+### Where does a tester fit
 
 Agile delivered software and value at the end of each sprint, DevOps introduces a steady stream changes. 
-Agile helped enable the cultural shift that makes DevOps possible. Agile helped break down disicipline silos, enabling healthier communication
+Agile helped enable the cultural shift breaking down disicipline silos, enabling healthier communication, and devops in general.
 
 Testing may not be referenced explicitly in DevOps literature, because it doesn't require specific attention, it is a part of each and every step. This is what testers sought for years, quality has to be integrated at all steps. Mindful collaboration across all phases design to support. In fact it surfaces many tester owned tasks to the entire team. Customer problems etc. I'm not sure about continuous testing, but I like the sound of continuous quality
 
 > When testing is expected to be part of everything. What exactly is your responsibility? How should you contribute?
 
+One of the first things this section recommends is starting with a  **test strategy retrospective**. This isn't something I had really considered before, I'm kind of accustomed to testing being marginalized either by organizations or by individual developers. While I won't get into the model that Katrina shares, the concept seems extremely healthy for teams. 
 
->Understand how you can influence culture through collaboration
- 
-### test strategy retrospective
-share and level set to gain consensus, consensus lowers individual risk as the decisions are not solely owned by testers. 
+It provides an opportunity for team members to share what testing activities you think are going on, who is performing those activities and how you think its working out. As the overall testing straategy is discussed it level sets expectations and allows for consensus to be gained. This consensus lowers individual risk as the decisions are not solely owned by testers. 
 
-Get to the middle of your teams, in the mix so as to facilitate quality
---Own (this seems good for mnemonic)
-own overall quality
+Many times in my career I've felt like testing was a black box to people outside of the role. As time went by and trust and relationships got built individually this changed but it could be a slow and sometimes painful or blame-filled process, I think the testing strategy retrospective would have helped alleviate some of that friction. 
 
-what does our testing look like, from unit to manual...
+It also seems like nice mechanism to allow testers gain a better grasp of what testing activities are being done by developers or other members of the team. Stepping beyond just writing test cases and focus more on getting an understanding of the risks involved in changes.
 
-more about the understanding of risks involved in changes than test cases
+It like a map for where you cna start pairing with other roles, so you move away from the periphery and  get to the middle of your teams, nestled deep in the mix so as to facilitate quality. 
 
-### Agile testing assessment
-Because of its collaborative nature, if you aren't comfortable testing in an Agile environment you might struggle to leap straight to devops
+### Collaborating and Communicating
 
-How do you identify quality...
+Much of the later half of the section *Testing in a DevOps Culture* dives into some specifics as to how testers can *blaze a trail* and build pathways for collaboration with different areas of their organizations. 
 
-### Communicating
-Be more than the testing status announcer in standups, people know you are the tester, saying testing this, finished testing that isn't good enough. You are being opaque instead of transparent. I think testers are quiet because they are uncertain about their status on the team. Are people going to care about the details of my work? By not sharing though you make it easier for testing activities to be dismissed. If you talk like its just checking a box, then people will think you are just checking boxes doing surface verifications.
+It's good stuff, but what struck me more than these specifics was about the importance of a testers communication inside of their teams. 
+
+Testers need to be more than the testing status announcer in standups. People know you are the tester, saying testing this, finished testing that isn't good enough. You are being opaque instead of transparent. 
+
+I think testers are quiet because they are uncertain about their status on the team. Are people going to care about the details of my work? By not sharing though you make it easier for testing activities to be dismissed. If you talk like its just checking a box, then people will think you are just checking boxes doing surface verifications.
 
 > Take the opportunity...to verbally create an image in someones mid of the activities you're undertaking.
 
 This provides surface area for other members to collaborate with you. 
-Pictures may prove more beneficial than written notes. (what if I did x days of visuals for standups, a visual daily update)
 
-Debrief vs. Peer review -> peer review is before an activity, like pairing on strategy.
+This section also defines a distinction between
+
+#### Debrief vs. Peer review 
+Katrina states that peer review is before an activity is done, like pairing on strategy. Conversely debrief is after, like a post mortem. 
+
+This didn't ring entirely true to me as my understanding of peer review (which may be flawed) is different. It is about reviewing the findings of work completed before it goes to be published or shared. In software it seems similar to code review, a problem was identified a strategy was worked up and implemented and now feedback and validation is sought before moving forward further. It's a minor quibble though, and likely a matter of perspective.
+
+#### Pairing
 
 > Pairing is high productivity
 
-It forces focus in those pairing and discourages interruptions
+It forces focus in those pairing and discourages interruptions. This is a nice insight and pro tip especially for those of us in open office arrangements frought with interruptions. 
+
 
 ## Testing In Development
 > Unit tests, integration tests, and end0to-end tests... focus on confirming behavior at different levels of abstraction
