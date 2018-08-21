@@ -76,18 +76,43 @@ It forces focus in those pairing and discourages interruptions. This is a nice i
 
 
 ## Testing In Development
-> Unit tests, integration tests, and end0to-end tests... focus on confirming behavior at different levels of abstraction
+> Unit tests, integration tests, and end-to-end tests... focus on confirming behavior at different levels of abstraction
 
-automation provides information but not thoughtful insight, this is where testers add value through holistic understanding of the SUT
+Unit tests and their relationship (and impact) to end-to-end tests is a tricky thing for testers to reconcile. They are so wholly different that they can feel irrelevant to a tester, just one more thing a developer does.
 
-inspection vs. introspection ? does this work
+When I read this, I immediately loved it.  I hadn't really thought about different testing levels being testing different abstractions. It's certainly true, just a truth I hadn't realized, somehow in my mind the layers were mostly separate with some overlap. 
 
-Automated testing will almost always be shallow, humans add the depth even in basic testing scenarios. [this is the sell for semi automated tests]
+Instead, I see it more clearly as a length of chain. Each method a developer writes is meant to encapsulate some logic. Then methods are chained together to further encapsulate some form of behavior. Finally behaviors are chained together to form a solution.  That's oversimplifying things, but it gives a more holistic view of the relationship between the traditional layers of testing. Unit tests focus on a single link in the products chain. Integration tests focus on logical groupings of multiple links in the chain. Finally, end-to-end is where the entire length of chain is evaluated. 
 
+### On Systems of Feedback
+
+Feedback while testing in development is broken up into two categories *Automation* and *Exploration*. 
+
+> Testing that happens during development is best spent exploring...
+
+This counters what testers are so frequently expected to do while code is being written, which is write end-to-end tests based on current expectations. I hadn't questioned this sentiment much before, but after reading and reflecting on this section of the book it strikes me as waterfallish. Developers, go code it. Testers, go prep your tests. 
+
+Automation provides information but not thoughtful insight. It's not that automation doesn't have value, it's just that while features are being developed is the best time to examine and question what is trying to be accomplished. 
+
+Exploring while there is potential for change makes a lot of sense. Once code has been deployed and customers are using it, any newfound insight or issues a tester shares can be difficult to address. Customers might be impacted, or designs may need to change, those potential risks devalue the insight and value a tester can provide. 
+
+True insight, is where testers add value through holistic understanding of the system under test. Automated testing will almost always be shallow, humans add the depth even in basic testing scenarios. This makes automation that testers typically develop a perfect candidate for later cycles before release. 
+
+Maybe the question isn't just are you automating the right things, but is the right thing being automated?
+
+### Testing Timeline
 >automated deployment (commit-> deploy) squeezes exploration into either end of the pipeline (in dev | in production)
 
-feature flags can enable incremental development and reduce risk of large merges in an active code base.
-Testers need to be aware of the toggles, the potential states and conditions and potential related toggles nd how the toggles are managed. If theres an external dependency what happens when it fails?
-Complexity in managing and testing feature toggles can be a smell that strategy and implementation of toggle may need attention/remediation
+The evaporation of a "testing" phase is a real challenge for testers. Testing has to adapt in devOps, testers need to find ways to contribute before code is complete and after its deployed. When code is deploying multiple times a day, there just isn't room for extended periods of testing most development. It can be easy to fall into the verification trap, just checking the developers changes do what they say. If you take too long, you slow the whole team because you are disrupting a stream of work often spread across different developers.
 
-Bug bash & Crowd testing interesting but less applicable to my experience.
+#### Feature Toggles
+
+Feature flags can enable incremental development and reduce risk of large merges in an active code base.
+Testers need to be aware of the toggles, the potential states and conditions and potential related toggles and how the toggles are managed. If theres an external dependency what happens when it fails?
+
+This is also a means to safely test in production. Feature flags allow teams to control the impact of change on actual consumers, while getting code safely and quickly into the environment it will be used in. Testing and staging servers just aren't the same as production. First pass of testing may just be that old behaviors are not affected by the latest changes. This way you are more free to test safely in production. 
+
+Complexity in managing and testing feature toggles can be a smell that strategy and implementation of toggle may need attention/remediation.
+
+## And more...
+This is just what I took away from the first 2 sections of [](). I'll be covering the rest in upcoming posts!
