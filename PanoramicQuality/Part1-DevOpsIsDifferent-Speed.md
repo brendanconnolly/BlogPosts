@@ -28,7 +28,8 @@ A typical testing approach in dev ops can quickly end up between a rock and a ha
 
 How do you test effectively when code around you is changing hourly?
 
-Given the pressure and speed inheirent to dev ops its
+
+Now we have 
 
 ## Stability through Frequency 
 We Know
