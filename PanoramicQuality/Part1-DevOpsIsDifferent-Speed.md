@@ -55,8 +55,4 @@ Successful testing in dev ops means relinquishing control over testing. Take you
 
 spectrum left to right - vertical puts you above that influencing at any point...
 
-## Stability through Frequency 
-We Know
-other environments aren't production, or even production like
 
-Design <-> Production is right 2 left
