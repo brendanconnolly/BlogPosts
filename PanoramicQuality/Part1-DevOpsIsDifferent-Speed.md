@@ -28,9 +28,35 @@ A typical testing approach in dev ops can quickly end up between a rock and a ha
 
 How do you test effectively when code around you is changing hourly?
 
+Awareness of this constant rapid pace isn't unique to testers. Developers know the risks in code sitting, to account for this they also frequently structure their work into a stream of changes smaller changes. You may hear things like 
+> I just need to get this deployed to unblock the rest of the team
 
-Now we have 
+This puts a lot of pressure on testers, it can be tough to judge the risk in iterative development, since there may not be a clear change that you can explicitly test. When risk is within the range of uncertain to seemingly benign you get forced into a lot of *judgement call* testing. 
+
+#### *Judgement Call Testing Formula*
+>(*Perceived Risk* / *Pressure*) * *Developer Competence* = *Acceptable Testing Level* 
+
+It may seem like a unique scenario, but its just one in many common dev ops situations, where the tester is faced with a compressed window of time for testing. 
+
+When time in testing is consistently compressed it's very easy for testers to get accustomed to narrowing their focus to just making sure the change does explicitly what its supposed to. The resulting testing is a surface layer inspection, what amounts to a smoke test. You know its not ideal, you know it's *not really testing* but you aren't sure what else you can do, you find yourself caught up in the **Verification Trap**
+
+#### Rip Current to the Right
+It's like a [rip current](https://en.wikipedia.org/wiki/Rip_current) pulling testers back towards the right in the dev lifecycle. Implicitly accepting feature growth over potential feature quality, encouraging the notion of testers as gatekeepers. 
+
+The solution isn't to back swim against the current, the trap is already sprung and you can't break free through brute force. Teams don't respond to unrealized or potential risk, so muttering warnings about implications on quality when there isn't a tangible issue is just going to push you farther out to sea. It sounds just like *QA Paranoia*.
+
+#### Stay Calm, Go Vertical
+Stay calm get through it for the short term, don't sacrifice your credibility. 
+
+##### Vertical Hands
+Share with the team in retro's, ask for help, create strategy
+##### Vertical Mindset
+Successful testing in dev ops means relinquishing control over testing. Take your mindset vertical, focus on how you can take ownership of managing quality across the spectrum.
+
+spectrum left to right - vertical puts you above that influencing at any point...
 
 ## Stability through Frequency 
 We Know
 other environments aren't production, or even production like
+
+Design <-> Production is right 2 left

@@ -17,3 +17,10 @@ Risk getting onto the freeway => merging
 Parking code is dangerous too.
 
 like the building of freeways opens 
+
+## Stability through Frequency 
+We Know
+other environments aren't production, or even production like
+
+note: take a panoramic picture, start with focal point in teh middle only show that vertical slice
+at major segways expand view of the image. tie content into lanscape now visible
