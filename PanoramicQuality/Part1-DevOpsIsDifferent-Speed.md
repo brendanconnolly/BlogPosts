@@ -43,16 +43,26 @@ When time in testing is consistently compressed it's very easy for testers to ge
 #### Rip Current to the Right
 It's like a [rip current](https://en.wikipedia.org/wiki/Rip_current) pulling testers back towards the right in the dev lifecycle. Implicitly accepting feature growth over potential feature quality, encouraging the notion of testers as gatekeepers. 
 
-The solution isn't to back swim against the current, the trap is already sprung and you can't break free through brute force. Teams don't respond to unrealized or potential risk, so muttering warnings about implications on quality when there isn't a tangible issue is just going to push you farther out to sea. It sounds just like *QA Paranoia*.
-
 #### Stay Calm, Go Vertical
-Stay calm get through it for the short term, don't sacrifice your credibility. 
+
+The solution isn't to back swim against the current, the trap is already sprung and you can't break free through brute force. Teams don't respond to unrealized or potential risk, so muttering warnings about the implications on quality when there isn't a tangible issue is just going to push you farther out to sea. It sounds just like *QA Paranoia*.
 
 ##### Vertical Hands
-Share with the team in retro's, ask for help, create strategy
-##### Vertical Mindset
-Successful testing in dev ops means relinquishing control over testing. Take your mindset vertical, focus on how you can take ownership of managing quality across the spectrum.
 
-spectrum left to right - vertical puts you above that influencing at any point...
+Stay calm, get through it for the short term. You may be a lone tester but you aren't alone on your team. Raise your hand, this isn't  a tester problem, and you can't solve it alone. This is a team strategy problem. The cadence of the team is causing an imbalance, which if allowed to continue will degrade team performance and put overall software quality at risk.
+
+This is a perfect topic for the sprint retrospective. Recognize that your team probably doesn't grasp the pressure you feel to sacrifice the quality of your work and therefore risk your credibility. Something like a [Test Strategy Retrospective](http://katrinatester.blogspot.com/2014/04/test-strategy-retrospective.html) can be really useful in nailing down what testing activities are actually being done in throughout the development cycle. Once people are on the same page, conversations can happen about a holistic test strategy going forward. 
+
+##### Vertical Mindset
+
+Agile may have forced many testers to shift left, but the speed of Dev Ops can put so much pressure on testers that they can only scramble to keep up, forcefully pushing testers back towards the right. After all, where is the time to be involved in the planning process ofr future work if you are so busy you don't have time to look up from the current round of work. 
+
+Agile enabled QA teams the opportunity to share testing across the team, Dev Ops basically forces your hand in relinquishing ownership of testing. As a tester this can be incredibly unsettling. It causes a bit of an identity crisis, if I am not primarily and directly testing then as a tester what is my role on the team?  
+
+The idea of testers shifting left, or shifting right implies that there is a point in time for inserting quality. Quality isn't an attribute you just create, it's something you influence and allow space for at each step along the way towards release.  You can see similar concepts in [TQM (Total Quality Manangement)](https://en.wikipedia.org/wiki/Total_quality_management) made famous by Toyota, where quality is made possible through the attention of the entire organization focusing on continual improvement of process and product. 
+
+Agile/ Scrum teams are just a microcosm of that so as take your mindset vertical, focus on how you can take ownership of managing quality across the spectrum of the development cycle. 
+
+
 
 
