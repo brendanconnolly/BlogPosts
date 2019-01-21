@@ -54,11 +54,9 @@ The solution isn't to back swim against the current, the trap is already sprung 
 
 Stay calm, get through it for the short term. You may be a lone tester but you aren't alone on your team. Raise your hand, this isn't  a tester problem, and you can't solve it alone. This is a team strategy problem. The cadence of the team is causing an imbalance, which if allowed to continue will degrade team performance and put overall software quality at risk.
 
-This is a perfect topic for the sprint retrospective. Recognize that youkr team probably doesn't grasp the pressure you feel to sacrifice the quality of your work and therefore risk your credibility. Something like a [Test Strategy Retrospective](http://katrinatester.blogspot.com/2014/04/test-strategy-retrospective.html) can be really useful in nailing down what testing activities are actually being done in throughout the development cycle. Once people are on the same page, conversations can happen about a holistic test strategy going forward. 
+This is a perfect topic for the sprint retrospective. Recognize that your team probably doesn't grasp the pressure you feel to sacrifice the quality of your work and therefore risk your credibility. Something like a [Test Strategy Retrospective](http://katrinatester.blogspot.com/2014/04/test-strategy-retrospective.html) can be really useful in nailing down what testing activities are actually being done in throughout the development cycle. Once people are on the same page, conversations can happen about a holistic test strategy going forward. 
 
 ##### Vertical Mindset
-
-
 
 Agile enabled QA teams the opportunity to share testing across the team, Dev Ops basically forces your hand in relinquishing ownership of testing. As a tester this can be incredibly unsettling. It causes a bit of an identity crisis, if I am not primarily and actively testing then as a tester what is my role on the team?  
 
