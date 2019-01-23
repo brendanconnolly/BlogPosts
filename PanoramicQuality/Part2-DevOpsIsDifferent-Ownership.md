@@ -63,8 +63,6 @@ When testing goes smoothly the result is nothing. Testing isn't required for thi
 
 Testers need to Actions, practices and motivations it can be verbalized puts testing on the level of superstitions and token time sacrifices to the quality gods. 
 
-
-
 ### The Intuition trap
 
 Even when teams value testing, people are usually primarily concerned with the progression or regression of testing efforts. Testers comments in standups can easily turn into a user story status change report
@@ -75,14 +73,19 @@ If you aren't taking the opportunity to discussion your actual actions in stand 
 
 [Testing is a performance](http://www.satisfice.com/blog/archives/1346), like acting or athletics there might be a script or gameplan to start with but there is a lot going on behind the scenes, being thought up on the fly, adapting to circumstance. It's intuition driven. 
 
-Testers need to pry open this experience, expose the internals.
-
-### Replace Isolation with Collaboration
-[clean up] It might seem like there is no where left for testers, development is eating up everything. Things are changing, what used to be a contentious us vs. them relationship is typically much more open.  The additional ownership has changed relationship dynamics. Success at scale requires collaboration. What this means is development is much more open to testing than in days of old. 
-
-This cuts both ways though. It can be uncomfortable or difficult to open up and share what goes through your *testing mindset*
+Testers need to pry open this experience, expose the internals driving motivations.
 
 ### Replace Execution with Communication
 
-### Replace Tedium with Strategem 
+Open sourcing your mindset means *teaching* developers another way to look at and interact with their code. 
+
+
+### Replace Isolation with Collaboration
+
+The additional ownership has changed relationship dynamics, what was at one point a contentious us vs. them relationship is much more open. Success at scale requires collaboration. This cuts both ways though. It can be uncomfortable or difficult to open up and share what goes through your *testing mindset*. 
+
+Success means pairing with developers. Testing at their desk, against their local changes. 
+
+
+### Replace Tedium with Stratagem 
 
