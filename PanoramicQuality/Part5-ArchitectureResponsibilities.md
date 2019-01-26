@@ -74,3 +74,10 @@ Monitoring implies that you know what you are watching/looking for.
 
 
 > Instead,we need to strengthen the human element,the curiosity element,the ability to make connections. We need to give people with those skills superpowers,extend their senses,support their intuitions and make it quick and easy to explore a hypothesis, disprove it,and move on to the real root cause.
+
+Observability Driven Development -> Observability Driven(Enabled) Testing
+Test to understand not just what users are doing (in a business sense, and in product sense) so understand why 
+
+measurements vs observations
+measurements are a series of facts 
+observations context theory backed facts

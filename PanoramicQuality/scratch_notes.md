@@ -20,3 +20,5 @@ Either contribute to the pipeline components
 ## Quality Owner => Steward of what has been built
 
 role as a strategist not executor
+
+cross team empathy, the more we understand each role on our team the easier we are to work with
