@@ -1,4 +1,10 @@
 
+Architecture is the geography of software. 
+
+By knowing the geography of the application, we can start to shift the geography of our testing
+
+
+
 Its easy to overlook your architecture
 architecture of software
 architecture of solution
@@ -48,6 +54,17 @@ test architecture, interplay of levels ->atmosphere
 
 
 ## Verify
+
+Our testing can now be a reflection of its location. 
+### at the desk
+
+### in the pipe
+
+### in production
+
+
+
+
 testing to make sure that metrics are being accurately measured. Are you measuring the right things.
 Are there things you thought you might need but don't. 
 
