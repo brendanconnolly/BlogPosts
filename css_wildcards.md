@@ -1,5 +1,7 @@
 <center><img src="http://www.brendanconnolly.net/wp-content/uploads/2019/03/css-wildcards-sketch.png" alt="CSS WildCard Selectors Sketch" width="70%"/></center>
 
+Good selectors can be hard to find. It's always nice when the elements we need have automation friendly attributes, but sometimes thats not an option. These wildcards can help when you just need to match on part of what attributes are present. 
+
 ## Contains `*=`
 There are times where finding a unique substring within a value is just the solution needed. In this case from the [Automation Practice](http://automationpractice.com/index.php) website, there are multiple products on a page all with the same markup and even the same text description. The link to the item though has the products unique id in it. 
 
@@ -68,7 +70,7 @@ page.find(".nav").find("a[href$='about/']")
 ## In List `~=`
 Sometimes the element you are searching for has a value you want to use to locate it but it's not the only value assigned to the attribute. You often see this with the `class` attribute but it's not a problem because using the `.` selector will find a specific class in the list of assigned classes.
 
-For a real world example from [Github](https://github.com/SeleniumHQ/selenium)
+For a real world example from [Github](https://github.com/SeleniumHQ/selenium) 
 
 ```
 <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" 
@@ -80,9 +82,11 @@ Looking at the `data-hotkey` attribute as an example, it may not seem that bad t
 Using `~=` will look for the value in a space separated list.  
 
 The selector to find based on ` p ` value in `data-hotkey`:
+
 ```
 a[data-hotkey~='p']
 ```
+
 and clicking that element: 
 ```ruby
 page.find("a[data-hotkey~='p']").click
