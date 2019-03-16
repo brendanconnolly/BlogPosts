@@ -1,7 +1,9 @@
 <center><img src="http://www.brendanconnolly.net/wp-content/uploads/2019/03/css-wildcards-sketch.png" alt="CSS WildCard Selectors Sketch" width="70%"/></center>
 
 ## Contains `*=`
+There are times where finding a unique substring within a value is just the solution needed. In this case from the [Automation Practice](http://automationpractice.com/index.php) website, there are multiple products on a page all with the same markup and even the same text description. The link to the item though has the products unique id in it. 
 
+Rather than use [string interpolation](https://en.wikipedia.org/wiki/String_interpolation) to generate the full link text, we can instead use `*=` to match just part of attributes value.
 ```
 <h5 itemprop="name">
     <a class="product-name" href="http://automationpractice.com/index.php?id_product=3&amp;controller=product" title="Printed Dress" itemprop="url">
@@ -9,27 +11,38 @@
     </a>
 </h5>
 ```
+Using the class name in conjunction with `*=` to select the specific item on the page. 
 ```
 .product-name[href*='3&']
 ```
+
+The site has another section with the same item listed so the first find will narrow the scope of the search to the `homefeatured` section then look up our item and click on it.
 ```ruby
-page.find("ul[class~='homefeatured']").find(".product-name[href*='3&']")
+page.find("ul[class~='homefeatured']").find(".product-name[href*='3&']").click
 ```
 ## Starts With `^=`
+Sometimes part of the attribute values you need are static but with dynamic or seemingly random data at the end. What seemed like a perfectly good and unique selector suddenly stops working the next time you run you tests or when new elements are added to the page.  For cases like this using `^=` will match on the beginning of the attributes value. 
+
+For a real world example from [Ultimate QA's complicated page](https://www.ultimateqa.com/complicated-page/)
 
 ```
 <input id="user_login_5c88a03ff2e3d" placeholder="Username" class="input" type="text" value="" name="log">
 ```
+In this case the class attribute has some auto-generated value appended to the end of what otherwise would be a very easily located element.
+
+Using `^=` with the selector to find based on `user_login`:
 ```
 input[id^='user_login']
 ```
+
+Then setting a value for that element: 
 ``` ruby
 page.find("input[id^='user_login']").set('my_name_is')
 ```
 
 
 ## Ends With `$=`
-To match on the end of a string `$=`. 
+Just like using `^=` to match on the beginning of a string, to match on the end of a string use `$=`.
 
 For a real world example from the [Association for Software Testing](https://www.associationforsoftwaretesting.org)
 ```
