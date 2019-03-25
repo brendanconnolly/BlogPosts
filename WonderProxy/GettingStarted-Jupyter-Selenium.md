@@ -93,12 +93,16 @@ Console output will be included in the output of a cell, as well as the result o
 Variables created in one cell, once it is executed are available for use in all other cells. This means while there is an order when creating cells, cells can be run multiple times or in a different order. 
 
 ### Composing Cells
+Working in Jupyter is different than in a ide, it allows active interaction with the code you are writing. It can be helpful to start by keeping the amount of code in each cell small. If there are problems make changes and rerun the cell. Then you can start to consolidate the code into a single cell that performs as desired action. 
 
-
+It's not required to write code this way, but it prevents the need for writing a big chunk of code, only to realize there is an issue somewhere and start trying to debug it. Even then, when trying to figure out where the problem is it helpful to decompose the code into multiple cells. Instead of trying to insert a breakpoint or add console log statements, leverage the fact that Jupyter allows the user to control the flow of execution using cells much the way stepping through a debugger. Then once the issue is resolved the contents of the cells can be combined. 
 
 ### Clean Up
+Since the browser is visible it can be tempting to close it manually. Even if you are still writing or using a notebook, just out of habit you might close the browser. This will result in error messages because Capybara and Selenium still hold a reference to the old driver instance. 
 
-`page.driver.quit`
+If this occurs you will need use the `refresh` button in the Jupyter ui to restart the IRuby kernel and rerun the cells.
+
+To help manage this it can be helpful to end each notebook with a cell to clean up and exit the browser using `page.driver.quit`. 
 
 
 
