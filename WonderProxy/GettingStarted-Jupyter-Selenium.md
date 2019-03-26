@@ -2,7 +2,7 @@
 
 ## What are Jupyter Notebooks
 
-Jupyter Notebooks are web based documents that blend together [markdown](), code that can be executed on the fly as well as visual output of that codes results.  
+Jupyter Notebooks are web based documents that blend together [markdown](https://en.wikipedia.org/wiki/Markdown), code that can be executed on the fly as well as visual output of that codes results.  
 
 They have gained immense popularity in data science and academia. The code to manipulate data can live side by side with the resulting visualization and an explanation for how it should be interpreted. What makes it even more powerful code is editable and executable in real time by the viewer, so the full story of the code can come to life right in front of their eyes.
 
@@ -35,7 +35,7 @@ Then you can start to refactor the code inside the notebook. Consolidating multi
 ## Setup
 
 ### Prerequisites 
-The Jupyter team recommends installing python using [Ananconda](). Anaconda automatically includes Jupyter and many of the popular data science packages.
+The Jupyter team recommends installing python using [Ananconda](https://www.anaconda.com/distribution/). Anaconda automatically includes Jupyter and many of the popular data science packages.
 
 For this guide you will also need to have [Ruby](https://www.ruby-lang.org/en/documentation/installation/), [Chrome Webdriver](http://chromedriver.chromium.org/downloads) and [Git](https://git-scm.com/downloads) installed.
 
