@@ -15,8 +15,10 @@ Pipelines aren't for people-> if your job has task that interrupt the flow of th
 Either contribute to the pipeline components 
 
 
-
+Quality Ownership in Action
 ## Product =Stewards of what will be built
 ## Quality Owner => Steward of what has been built
-
+## Continuity vs. Creativity
+## Collaborator vs. Executor
+## Deft vs Daft
 role as a strategist not executor
