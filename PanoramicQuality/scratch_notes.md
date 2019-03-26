@@ -18,7 +18,14 @@ Either contribute to the pipeline components
 Quality Ownership in Action
 ## Product =Stewards of what will be built
 ## Quality Owner => Steward of what has been built
+<<<<<<< HEAD
 ## Continuity vs. Creativity
 ## Collaborator vs. Executor
 ## Deft vs Daft
 role as a strategist not executor
+=======
+
+role as a strategist not executor
+
+cross team empathy, the more we understand each role on our team the easier we are to work with
+>>>>>>> 07ba7807dcc5438568f158ecbe6012ae39448201
