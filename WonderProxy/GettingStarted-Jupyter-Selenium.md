@@ -92,11 +92,6 @@ Console output will be included in the output of a cell, as well as the result o
 
 Variables created in one cell, once it is executed are available for use in all other cells. This means while there is an order when creating cells, cells can be run multiple times or in a different order. 
 
-### Composing Cells
-Working in Jupyter is different than in a ide, it allows active interaction with the code you are writing. It can be helpful to start by keeping the amount of code in each cell small. If there are problems make changes and rerun the cell. Then you can start to consolidate the code into a single cell that performs as desired action. 
-
-It's not required to write code this way, but it prevents the need for writing a big chunk of code, only to realize there is an issue somewhere and start trying to debug it. Even then, when trying to figure out where the problem is it helpful to decompose the code into multiple cells. Instead of trying to insert a breakpoint or add console log statements, leverage the fact that Jupyter allows the user to control the flow of execution using cells much the way stepping through a debugger. Then once the issue is resolved the contents of the cells can be combined. 
-
 ### Clean Up
 Since the browser is visible it can be tempting to close it manually. Even if you are still writing or using a notebook, just out of habit you might close the browser. This will result in error messages because Capybara and Selenium still hold a reference to the old driver instance. 
 
@@ -104,9 +99,28 @@ If this occurs you will need use the `refresh` button in the Jupyter ui to resta
 
 To help manage this it can be helpful to end each notebook with a cell to clean up and exit the browser using `page.driver.quit`. 
 
+## Composing and Refactoring
+Working in Jupyter is different than in a ide, it allows active interaction with the code you are writing. It can be helpful to start by keeping the amount of code in each cell small. If there are problems make changes and rerun the cell. Then you can start to consolidate the code into a single cell that performs as desired action. 
+
+It's not required to write code this way, but it prevents the need for writing a big chunk of code, only to realize there is an issue somewhere and start trying to debug it. Even then, when trying to figure out where the problem is it helpful to decompose the code into multiple cells. Instead of trying to insert a breakpoint or add console log statements, leverage the fact that Jupyter allows the user to control the flow of execution using cells much the way stepping through a debugger. Then once the issue is resolved the contents of the cells can be combined. 
+
+### Refactoring
+
+Code inside notebooks is still code and is going to need to be maintained. Once you find yourself copy and pasting the contents of cells into different notebooks it may be time to consider extracting that code into a function contained in a separate ruby file. 
+
+A basic example of this can be seen in the `Selenium Refactored` notebook. The code to wire up Capybara with the Chrome driver has been moved into a file in the root of the repository. This model can be extended to begin building out page objects and ultimately a testing framework.
+
+## Creating Your Own
+Now you have the basics down, create a new notebook and start exploring. 
+Navigate to the notebook dashboard.
+![notebook dashboard](getting-started-images/jnb.dashboard.png)
+
+Click new and select Ruby and a new notebook will be created.
+![notebook dashboard](getting-started-images/jnb.new.notebook.png)
 
 
-## Refactoring
+
+
 
 
 
