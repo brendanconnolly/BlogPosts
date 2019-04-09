@@ -1,13 +1,13 @@
 ## DevOps is Different
 
 ## Ownership
-As development has shifted from waterfall to agile and now dev ops, at each stage you see developers taking on more responsibility and accountability. 
+As development has shifted from waterfall to agile and now DevOps, at each stage you see developers taking on more responsibility and accountability. 
 
-Waterfall was isolationist, developers owned the act of coding, and in the stereotypical developer way had little to no interest what happened before or after they coded. Other roles on the teams in many ways acted as insulators to keep external forces away from developers. 
+Waterfall was isolationist. Developers owned the act of coding, and in the stereotypical developer way had little to no interest what happened before or after they coded. Other roles on teams in many ways acted as insulators to keep external forces away from developers. 
 
-Agile was developers pulling the insulation away and shifting themselves left and taking more ownership of the product creation process. Developers required a real time feedback loop to build the right things and successfully react to change. 
+Agile was developers pulling that insulation away and shifting themselves left and taking more ownership of the product creation process. Developers required a real time feedback loop to build the right things and successfully react to change. 
 
-Dev Ops is essentially the same process on the right side of the spectrum. Development takes more ownership of deployment, monitoring and application support. It's just too slow and cumbersome to react to the requirements of maintaining applications by filtering feedback through separate teams at scale.  
+DevOps is essentially the same process on the right side of the spectrum. Development takes more ownership of deployment, monitoring and application support. It's just too slow and cumbersome to react to the requirements of maintaining applications by filtering feedback through separate teams at scale.  
 
 The benefits of integration outweigh the cost of the additional responsibility. 
 
@@ -16,20 +16,19 @@ To cope with the additional responsibilities, developers turned to their trusty 
 
 With agile we see rise of tooling developed for *Continuous Integration* to alleviate the pain and reduce the risk in iterative development. 
 
-In DevOps we see the rise of code and tools supporting *Continuous Deployment*. Even when many teams already had product installers, or automated deployment what was missing was the integration of that information.  
+In DevOps we see the rise of code and tools supporting *Continuous Deployment*. Even when many teams already had product installers, or automated deployments what was missing was the integration of that information. 
 
-If developers are owning more of the product, as well as the release and deployments then testing naturally gets swept up in the process. In fact we see this pattern emerging with the concept of *Continuous Testing*. Code is being written, tools created to help solve the issue of integrating test execution and reporting into teams release pipeline. 
+If developers are owning more of the product, as well as release and deployments then testing naturally gets swept up in the process. In fact we see this pattern emerging with the concept of *Continuous Testing*. Code is being written, tools created to help solve the issue of integrating test execution and reporting into teams release pipeline. The feedback loop is extended to to provide rapid information to make it easier and faster for development to be responsive to change.
 
 ## Continuous Testing
 
 Automated testing is a loaded term. In developer circles it almost exclusively means unit and possibly integration tests. In QA it almost almost exclusively means end to end (e2e) tests, and is often synonymous with *Selenium*. 
 
-On teams where both sets of tests exist their worlds may seldom interact. Developers may be aware of the *e2e* tests but they probably aren't writing them and less likely running them. 
+On teams where both sets of tests exist, their worlds may seldom interact. Developers may be aware of the *e2e* tests but they probably aren't writing them and less likely running them. 
 
+Continuous Testing has nothing to do with the testing that most QA team members are most familiar with, exploratory testing. The purpose of the code and tooling that comprises a pipeline isn't for there to be some manual intervention required part of the way through it. Putting exploratory testing somewhere in the later stages for the pipeline is akin to pointing a fire hose at someone and asking them to direct the flow to the next stage. 
 
-Continuous Testing has nothing to do with the testing that most QA team members are most familiar with, exploratory testing. The purpose of the code and tooling the comprises a pipeline isn't for there to be some manual intervention required part of the way through it. Putting exploratory testing somewhere in the later stages for the pipeline is akin to pointing a fire hose at someone and asking them to direct the flow to the next stage. 
-
-If the [speed of devOps]() wasn't enough, the presence of *continuous testing* only puts more pressure on testers, simply because more attention is being drawn to testing.  
+If the [speed of DevOps]() wasn't enough, the presence of *continuous testing* only puts more pressure on testers, simply because more attention is being drawn to testing.  
 
 Automation engineers and product engineers are being drawn closer together. The importance and relevance of end to end automated tests is becoming more of a reality for product developers as they become run regularly as a post deploy verification tests.
 
@@ -59,17 +58,17 @@ A testers value tends to be recognized at the same rate as relationships develop
 
 It's fun being a hero, but theres no skill in being *Superman* or *Superwoman* ( I was going to say Wonder Woman, but she actually trained and I think everyone recognized that. So if you are the teams Wonder Woman then kudos, you have serious skills but I digress). 
 
-When testing goes smoothly the result is nothing. Testing isn't required for things to go right, it just might help prevent thing going wrong. 
+When testing goes smoothly the result is nothing. Testing isn't required for things to go right, it just might help prevent a thing going wrong. 
 
-Testers need to Actions, practices and motivations it can be verbalized puts testing on the level of superstitions and token time sacrifices to the quality gods. 
+When actions, practices and motivations are not being verbalized and expressed to the team and stakeholders it puts testing on the level of superstitions and token time sacrifices to the quality gods. 
 
 ### The Intuition trap
 
-Even when teams value testing, people are usually primarily concerned with the progression or regression of testing efforts. Testers comments in standups can easily turn into a user story status change report
+Even when teams value testing, people are usually primarily concerned with the progression or regression of testing efforts. Testers comments in stand-ups can easily turn into a user story status change report
 
 >*Passed this ticket, working this ticket, no blockers*
 
-If you aren't taking the opportunity to discussion your actual actions in stand ups then you may fall prey to the intuition trap. When you talk about your work this way, sometimes you end up actually working this way. 
+If you aren't taking the opportunity to discuss your actual actions in stand ups, then you may fall prey to the intuition trap. When you talk about your work this way, sometimes you end up actually working this way. 
 
 [Testing is a performance](http://www.satisfice.com/blog/archives/1346), like acting or athletics there might be a script or gameplan to start with but there is a lot going on behind the scenes, being thought up on the fly, adapting to circumstance. It's intuition driven. 
 
@@ -77,7 +76,7 @@ Testers need to pry open this experience, expose the internals driving motivatio
 
 ### Replace Execution with Communication
 
-Open sourcing your mindset means *teaching* developers another way to look at and interact with their code. 
+Open sourcing your mindset means *teaching* developers another way to look at and interact with their code. At the same time it means being open and integrating new ideas into your *testers mindset*.
 
 
 ### Replace Isolation with Collaboration
@@ -88,4 +87,4 @@ Success means pairing with developers. Testing at their desk, against their loca
 
 
 ### Replace Tedium with Stratagem 
-
+Teams are more open to testing and sharing in quality than ever. Testers have been building quality mindsets for years. Developers are building tooling but teams are looking for guidance and mentorship in *Quality*.  

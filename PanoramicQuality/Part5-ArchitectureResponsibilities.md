@@ -40,6 +40,9 @@ measuring
 
 ### defense
 
+testing to make sure that metrics are being accurately measured. Are you measuring the right things.
+Are there things you thought you might need but don't. 
+
 ### preservation
 when amazon pulls the plug on the machine you are hosted on?
 
@@ -65,8 +68,7 @@ Our testing can now be a reflection of its location.
 
 
 
-testing to make sure that metrics are being accurately measured. Are you measuring the right things.
-Are there things you thought you might need but don't. 
+
 
 Knowing, and protecting created an information strategy, this step is where we start to validate that strategy and its implementation. 
 
@@ -77,11 +79,6 @@ coupling,  is your code impacted? If/ when 3rd parties go a wry.
 
 Is it giving us what we need? Are we using it? Data is only good if you look at it. 
 Monetary cost is just part of it, theres additional code complexity, additional dependencies, 
-
-### Overload
-Sometimes there are just too many solutions. If your logging is in one tool, exception reporting in another, infrastructure monitoring in another, application monitoring in yet one more, it can all get overwhelming. 
-
-Just keeping your credentials straight is a challenge in that situation. Insights and
 
 
 ## Observability
