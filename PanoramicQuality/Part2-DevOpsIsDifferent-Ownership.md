@@ -54,14 +54,6 @@ Developers produce code, a measurable artifact from their effort. The generation
 
 A testers value tends to be recognized at the same rate as relationships develop. Testers get characterized as [folk heroes](https://en.wikipedia.org/wiki/Folk_hero) rather than members of a skilled profession. Theres no trade, or craft just individuals saving the day periodically.  
 
-## Opensource Your Mindset
-
-It's fun being a hero, but theres no skill in being *Superman* or *Superwoman* ( I was going to say Wonder Woman, but she actually trained and I think everyone recognized that. So if you are the teams Wonder Woman then kudos, you have serious skills but I digress). 
-
-When testing goes smoothly the result is nothing. Testing isn't required for things to go right, it just might help prevent a thing going wrong. 
-
-When actions, practices and motivations are not being verbalized and expressed to the team and stakeholders it puts testing on the level of superstitions and token time sacrifices to the quality gods. 
-
 ### The Intuition trap
 
 Even when teams value testing, people are usually primarily concerned with the progression or regression of testing efforts. Testers comments in stand-ups can easily turn into a user story status change report
@@ -70,21 +62,36 @@ Even when teams value testing, people are usually primarily concerned with the p
 
 If you aren't taking the opportunity to discuss your actual actions in stand ups, then you may fall prey to the intuition trap. When you talk about your work this way, sometimes you end up actually working this way. 
 
-[Testing is a performance](http://www.satisfice.com/blog/archives/1346), like acting or athletics there might be a script or gameplan to start with but there is a lot going on behind the scenes, being thought up on the fly, adapting to circumstance. It's intuition driven. 
+## Opensource Your Mindset
 
-Testers need to pry open this experience, expose the internals driving motivations.
+It's fun being a hero, but theres no skill in being *Superman* or *Superwoman* ( I was going to say Wonder Woman, but she actually trained and I think everyone recognized that. So if you are the teams Wonder Woman then kudos, you have serious skills but I digress). 
+
+When testing goes smoothly the result is nothing. Testing isn't required for things to go right, it just might help prevent a thing going wrong. 
+
+Open sourcing your mindset means *teaching* other another way to look at and interact with their code, or the product. This cuts both ways though, it means being willing to accept a pull request of outside perspective. Openly integrating new ideas into your *testers mindset*.
 
 ### Replace Execution with Communication
+[Testing is a performance](http://www.satisfice.com/blog/archives/1346), like acting or athletics there might be a script or gameplan to start with but there is a lot going on behind the scenes, being thought up on the fly, adapting to circumstance. It's intuition driven. 
 
-Open sourcing your mindset means *teaching* developers another way to look at and interact with their code. At the same time it means being open and integrating new ideas into your *testers mindset*.
+When actions, practices and motivations are not being verbalized and expressed to the team and stakeholders it puts testing on the level of superstitions and token time sacrifices to the quality gods. 
+
+Testers need to pry open this experience, expose the internals driving motivations. Breaking out of that shell grants visibility into a testers actions and motivations to provide a context for team members to attribute value.
+
+### Replace Isolation with Collaboration 
+
+It can be uncomfortable or difficult to open up and share what goes through your *testing mindset*. 
+
+The additional ownership  developers have taken in DevOps has changed relationship dynamics. What was at one point a contentious us vs. them relationship is much more open. There just isn't the time to have as much formal process driven communication. Success at scale requires collaboration, pairing and mobbing more.  
+
+When with developers, it's an opportunity to test at their desk, against their local changes.  There are risks testing here, the developers local setup is definitely different than production but so are the testing and staging environments. Let go of the taboo of ** it works on my machine** and consider what can be tested here and what needs to be covered on a different stage. Take the opportunity to work together when the code is the freshest in the developers mind and where they are most comfortable. 
+
+It's not only about working with developers, Mob testing with *UX* and *Product* alongside developers is a way to draw the entire team together. When the team is together seeing how the application is working it bypasses all the communication gates. There is no need for a separate follow-up conversations to loop someone in, that person can see and feel how things are working by being a part of the group experience. 
 
 
-### Replace Isolation with Collaboration
 
-The additional ownership has changed relationship dynamics, what was at one point a contentious us vs. them relationship is much more open. Success at scale requires collaboration. This cuts both ways though. It can be uncomfortable or difficult to open up and share what goes through your *testing mindset*. 
-
-Success means pairing with developers. Testing at their desk, against their local changes. 
 
 
 ### Replace Tedium with Stratagem 
 Teams are more open to testing and sharing in quality than ever. Testers have been building quality mindsets for years. Developers are building tooling but teams are looking for guidance and mentorship in *Quality*.  
+
+Testing isn't just button pressing, by showing that and working together we elevate our status. weve drawn people into the quality circle and the team is more comfortable and aware of testing. We have forgone complete control for being a voice of authority and expertise. Set working agreements, talk about over arching strategy for how testing throughout the development cycle builds quality in.  
