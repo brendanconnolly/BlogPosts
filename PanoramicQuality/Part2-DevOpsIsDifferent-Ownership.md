@@ -87,10 +87,6 @@ When with developers, it's an opportunity to test at their desk, against their l
 
 It's not only about working with developers, Mob testing with *UX* and *Product* alongside developers is a way to draw the entire team together. When the team is together seeing how the application is working it bypasses all the communication gates. There is no need for a separate follow-up conversations to loop someone in, that person can see and feel how things are working by being a part of the group experience. 
 
-
-
-
-
 ### Replace Tedium with Stratagem 
 Teams are more open to testing and sharing in quality than ever. Testers have been building quality mindsets for years. Developers are building tooling but teams are looking for guidance and mentorship in *Quality*.  
 
