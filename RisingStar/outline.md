@@ -1,8 +1,8 @@
 # Contribute
-*Mission* ->  Provide a set of tools 
+*Mission* ->  Provide a set of tools to enabling automation with jupyter notebooks and showcase the benefits of non-traditional automation
 
 - ## Language Kernel Setup
-    *Purpose* ->
+    *Purpose* -> make using other languages easier by documenting the setup of language kernels in jupyter notebooks
 
     *Actions* ->  Create notebooks to install other language kernels. Targeting the following
     - Ruby
@@ -19,7 +19,7 @@
     - guide / commands for adding webdriver instance or local selenium grid node
 
 - ## API Libraries 
-    *Purpose* -> 
+    *Purpose* -> highlight testing with automation to assist
     
     *Actions* -> 
     - email (mailtrap, others?)
@@ -30,13 +30,13 @@
     *Issues / Blockers* -> How to demonstrate without an account for the service? 
 
 - ## Resource Repo / Website 
-    *Purpose* -> 
+    *Purpose* -> provide a set of resources in 1 location to be able to point people to
   
     *Action* ->   
 
 - ## Example Automation Repo(s)
 
-    *Purpose* ->  
+    *Purpose* ->  provide working examples of traditional e2e alongside notebooks
 
     *Actions* ->  
     - Identify / Create good test sites
@@ -47,9 +47,11 @@
 
 ---
 # Content
-*Mission* ->  Create a body of work to support and demonstrate 
+*Mission* ->  Create a body of work to support and demonstrate jupyter and supporting ideas 
 
 - ## Blogs / Articles
+
+- ## Webinars
 
 - ## Workshops
 
