@@ -28,7 +28,7 @@ In traditional test authoring you would re-run the test, maybe with the debugger
 
 Using Jupyter, the cells inside a notebook can be added or edited in real time while you are automating. The feedback loop for the automation developer is lightning fast because the browser can remain open and visible while you work.   
 
-It enables a very [TDD]()esque workflow. Write only the lines of code you need to get started. Execute that code, view the result. If there was an issue you can see it immediately and fix it. If it was successful write the minimum code for the next step of the test in the next cell. 
+It enables a very [TDD](https://en.wikipedia.org/wiki/Test-driven_development)-esque workflow. Write only the lines of code you need to get started. Execute that code, view the result. If there was an issue you can see it immediately and fix it. If it was successful write the minimum code for the next step of the test in the next cell. 
 
 Then you can start to refactor the code inside the notebook. Consolidating multiple cells into a single cell representing an action or behavior. Once that actin is encapsulated it can be further refactored into a function in an external file for reuse.
 

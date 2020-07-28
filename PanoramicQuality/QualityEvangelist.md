@@ -1,5 +1,3 @@
-Evangelizing Quality
-
 In a keynote at [Agile Testing Days USA 2019](https://agiletestingdays.us/session/quality-then-quality-now/), [Jamet Gregory](http://www.janetgregory.ca/) and her daughter [Susan Bligh](https://twitter.com/@sbligh) shared a great diagram created by [Dan Ashby](https://danashby.co.uk/2016/10/19/continuous-testing-in-devops/). It highlights that while testing is something that is often not explicitly talked about in DevOps, it is present at every stage in the process. 
 
 ![testing is everywhere in DevOps](https://danashby04.files.wordpress.com/2016/10/model-2.jpg?w=1640)
