@@ -1,5 +1,7 @@
 # Testing Webhooks with JS
 
+![Testing Webhooks with JS](http://www.brendanconnolly.net/wp-content/uploads/2021/07/testing-webhooks-js.png)
+
 Webhooks are a popular way for platforms to notify external clients and integrations when changes are occurring in near real time. Webhooks can be very useful but they can  also present a challenge for both automated and exploratory testing of the webhooks implementation. 
 
 Typically the integrator registers to recieve webhooks by providing an endpoint that will accept post messages that serve as notifications about events. This usually requires a server available and listening on the public internet. There are sites like [webhook.site](https://webhook.site/) and [requestbin](https://requestbin.com/) that can be used for testing but they aren't a great option for automation, and may not fit your needs depending on the type of testing you need to perform. 
@@ -7,7 +9,7 @@ Typically the integrator registers to recieve webhooks by providing an endpoint 
 Rather than rely on sites like those, in this series we will use the Github api and webhooks along with NodeJs to create a webhooks listener that allows us to easily automate webhook testing.
 
 ## Setup
-This post assumes you have [nodejs]() installed and a empty node package created. We'll be using [Express](https://expressjs.com/) to create a webserver to listen for hooks. If you are new to nodejs and express the Express documention is helpful and has a [getting started](https://expressjs.com/en/starter/installing.html) guide. 
+This post assumes you have [nodejs](https://nodejs.org/en/) installed and a empty node package created. We'll be using [Express](https://expressjs.com/) to create a webserver to listen for hooks. If you are new to nodejs and express the Express documention is helpful and has a [getting started](https://expressjs.com/en/starter/installing.html) guide. 
 
 To install express from a console inside your project directory enter `npm install express`. 
 
