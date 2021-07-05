@@ -5,9 +5,9 @@ Webhooks are a popular way for platforms to notify external clients and integrat
 
 Rather than rely on sites like [webhook.site](https://webhook.site/) and [requestbin](https://requestbin.com/), in this series we will step through automating webhooks testing using NodeJs by creating a webhooks listener that enables us to wait for, recieve and inspect webhooks while testing.
 
-In [part 1](http://www.brendanconnolly.net/testing-webhooks-with-js/) of this series we created a class to act as a wrapper around an [express]() server that listens for webhooks. 
+In [part 1](http://www.brendanconnolly.net/testing-webhooks-with-js/) of this series we created a class to act as a wrapper around an [express](https://expressjs.com/) server that listens for webhooks. 
 
-Now we have the infrastructure in place to listen for webhooks, we will take a look at registering our server to receive webhooks and triggering webhook events using the [Github API](https://docs.github.com/en/rest).
+Now we have the infrastructure in place to listen for webhooks, we will take a look at registering, receiving and triggering webhook events using the [Github API](https://docs.github.com/en/rest).
 
 ## Configuring Github Webhooks
 
