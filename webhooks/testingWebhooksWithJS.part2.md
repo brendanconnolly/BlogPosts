@@ -25,7 +25,7 @@ The access token is a secret that we don't want to share publically, rather put 
 
 In the root of your project directory create a `.env` file, and inside it add `GITHUB_TOKEN=your_token_here`, replacing the placeholder text with the token you generated. 
 
-### Setting up an Octokit client
+### Setting up Octokit
 To setup the api client, we'll create a new file named `githubClient.js` and enter the following:
 
 ```js
@@ -57,7 +57,7 @@ module.exports = new GithubClient();
 ```
 
 ### Configuring Repository Webhooks
-Now we are ready to register our listener to receive webhooks from Github. To do this we will be using the [Repository Webhooks API](https://docs.github.com/en/rest/reference/repos#webhooks) and the `create` and `delete` endpoints. Octokit provides the `createWebhook` and `deleteWebhook` methods to interact with these endpoints. 
+Now we are ready to register our listener to receive webhooks from Github. To do this we will be using the `create` and `delete` endpoints from the [Repository Webhooks API](https://docs.github.com/en/rest/reference/repos#webhooks). Octokit provides the `createWebhook` and `deleteWebhook` methods to interact with these endpoints. 
 
 To make this example a bit more real world, rather than use those methods directly inside our tests, we are going to wrap the implementation details of the `Repository` api calls inside a service class. 
 
