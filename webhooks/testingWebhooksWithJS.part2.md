@@ -11,16 +11,17 @@ Now we have the infrastructure in place to listen for webhooks, we will take a l
 
 ## Configuring Github Webhooks
 
-In addition to an api, Github provides webhooks at the repository and organization level. These webhooks are what allow external systems like a CI server or issue tracker, etc. to be updated or trigger workflows when events happen inside a Github repository. So when a build is started because a pull request is merged theres a good chance webhooks are involved. 
+Github provides webhooks at the repository and organization level. These webhooks are what allow external systems to be updated or trigger workflows when events happen inside a Github repository. So when a build is started because a pull request is merged theres a good chance webhooks are involved. 
 
-Github's implementation follows a common pattern with webhook systems where the client registers and subcribes to receive notifications for either some or all events. To help troubleshoot and/or monitor the health of the integration, an interface is provided to list the webhook deliveries including the request/response data from each triggered event sent to the registered endpoint.
-
-The registration and subscription process can be done manually via the Github UI in the `Webhooks` section of the repository, or programatically using the api. 
+To use Github's webhooks a client registers and subcribes to receive notifications for either some or all events. To help troubleshoot and/or monitor the health of the integration, an interface is provided to list the webhook deliveries including the request/response data from each triggered event sent to the registered endpoint.
 
 ### Using the Github API
-Typically I would turn to [axios](https://github.com/axios/axios) when I need to create an api client. In this case Github provides [Octokit.js](https://github.com/octokit/octokit.js), which they describe as `the all-batteries-included GitHub SDK for Browsers, Node.js, and Deno`. To install Octokit from a console inside your project directory enter `npm install @octokit/rest`. 
+Typically I would turn to [axios](https://github.com/axios/axios) when I need to create an api client. In this case however, Github provides [Octokit.js](https://github.com/octokit/octokit.js), which they describe as `the all-batteries-included GitHub SDK for Browsers, Node.js, and Deno`. To install Octokit from a console inside your project directory enter `npm install @octokit/rest`. 
 
-Octokit provides multiple authentication options, for this guide we will be using the default which is a `personal access token`.  If you neeed an assist on creating a token, the github docs have you covered: [Creating a Personal Access Token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token). Since the access token is a secret that we don't want to share publically. Rather than paste the token directly into our code we can use an environment variable. To do this we will install the [dotenv](https://github.com/motdotla/dotenv) package using `npm install dotenv`.  
+Octokit provides multiple authentication options, for this guide we will be using the default which is a `personal access token`.  If you neeed an assist on creating a token, the github docs have you covered: [Creating a Personal Access Token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token). 
+
+### Storing the Acccess Token
+The access token is a secret that we don't want to share publically, rather put the token directly into our code we'll use the [dotenv](https://github.com/motdotla/dotenv) package to store it as an environment variable. To install, on the console enter `npm install dotenv`.  
 
 In the root of your project directory create a `.env` file, and inside it add `GITHUB_TOKEN=your_token_here`, replacing the placeholder text with the token you generated. 
 
