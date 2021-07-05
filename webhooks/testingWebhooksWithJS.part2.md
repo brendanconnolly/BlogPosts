@@ -18,17 +18,13 @@ Github's implementation follows a common pattern with webhook systems where the 
 The registration and subscription process can be done manually via the Github UI in the `Webhooks` section of the repository, or programatically using the api. 
 
 ### Using the Github API
-Typically I would turn to [axios](https://github.com/axios/axios) when I need to create an api client, however in this case Github provides [Octokit.js](https://github.com/octokit/octokit.js), self described as `the all-batteries-included GitHub SDK for Browsers, Node.js, and Deno`. It is nice to work with and makes working with the Gthub api simple and easy. 
+Typically I would turn to [axios](https://github.com/axios/axios) when I need to create an api client. In this case Github provides [Octokit.js](https://github.com/octokit/octokit.js), which they describe as `the all-batteries-included GitHub SDK for Browsers, Node.js, and Deno`. To install Octokit from a console inside your project directory enter `npm install @octokit/rest`. 
 
-To install `Octokit` from a console inside your project directory enter `npm install @octokit/rest`. 
+Octokit provides multiple authentication options, for this guide we will be using the default which is a `personal access token`.  If you neeed an assist on creating a token, the github docs have you covered: [Creating a Personal Access Token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token). Since the access token is a secret that we don't want to share publically. Rather than paste the token directly into our code we can use an environment variable. To do this we will install the [dotenv](https://github.com/motdotla/dotenv) package using `npm install dotenv`.  
 
-`Octokit` provides multiple authentication strategies, for this guide we will be using the default which is a `personal access token`.  If you neeed an assist on creating a token, the github docs have you covered: [Creating a Personal Access Token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token). 
+In the root of your project directory create a `.env` file, and inside it add `GITHUB_TOKEN=your_token_here`, replacing the placeholder text with the token you generated. 
 
-Since the access token is a secret that we don't want to share publically, rather than paste it directly into our code, we will use the [dotenv](https://github.com/motdotla/dotenv) package to store it inside an environment variable. To install, from a console inside your project directory enter `npm install dotenv`. 
-
-Next in the root of your project directory create a `.env` file, and inside it add `GITHUB_TOKEN=your_token_here`, replacing the placeholder text with the token you generated. 
-
-### Setting up Octokit
+### Setting up an Octokit client
 To setup the api client, we'll create a new file named `githubClient.js` and enter the following:
 
 ```js
@@ -36,9 +32,9 @@ const { Octokit } = require("@octokit/rest");
 require("dotenv").config();
 ```
 
-This will import `Octokit` and load the contents of our `.env` file. The call to `.config()` on the `dotenv` module only needs to happen once. As we progress we will refactor that into a more centralized place, but for now we'll leave it here. 
+This will import Octokit and load the contents of our `.env` file. Technically the call to `.config()` on the `dotenv` module only needs to happen once. As we progress we can refactor that into a more centralized place, but for now we'll leave it here. 
 
-Create a class named `GithubClient` and add a constructor function. Inside the constructor, we'll create an `instance` property and assign it a new instance of `Octokit`. The `Octokit` constructor accepts an options object, to use the personal auth token from from the env variable pass in  `{ auth: process.env.GITHUB_TOKEN }`. 
+Create a class named `GithubClient` and add a constructor function. Inside the constructor, we'll create an `instance` property and assign it a new instance of Octokit. The Octokit constructor accepts an options object, to use the personal auth token from from the env variable pass in  `{ auth: process.env.GITHUB_TOKEN }`. 
 
 `.env`
 ```js
@@ -60,13 +56,11 @@ module.exports = new GithubClient();
 ```
 
 ### Configuring Repository Webhooks
-Now that we have our api client and webhook listener we are ready to register our listener to receive webhooks from Github. To do this we will be using the [Repository Webhooks API](https://docs.github.com/en/rest/reference/repos#webhooks) and the `create` and `delete` endpoints.
+Now we are ready to register our listener to receive webhooks from Github. To do this we will be using the [Repository Webhooks API](https://docs.github.com/en/rest/reference/repos#webhooks) and the `create` and `delete` endpoints. Octokit provides the `createWebhook` and `deleteWebhook` methods to interact with these endpoints. 
 
-Octokit provides the `createWebhook` and `deleteWebhook` methods to interact with these endpoints. To make this example a bit more real world, rather than use those methods directly inside our tests, we are going to wrap the implementation details of the `Repository` api calls inside a service class. 
+To make this example a bit more real world, rather than use those methods directly inside our tests, we are going to wrap the implementation details of the `Repository` api calls inside a service class. 
 
-The repository endpoints require the repository owner and repository name to be included as parameters. To allow different repository to be used for testing, we are going to store the repository `owner` and `name` as environment variables. 
-
-Inside the `.env` file add the following, replacing the placeholder values with your test repository values:
+The repository endpoints require the repository owner and repository name to be included as parameters. To allow different repository to be used for testing, we are going to store the repository `owner` and `name` as environment variables. Inside the `.env` file add the following, replacing the placeholder values with your test repository values:
 
 `.env`
 ```js
@@ -88,8 +82,8 @@ class ReposService {
 module.exports = ReposService;
 ```
 
-Inside the `ReposService` add an `async` method called `createWebhook`. To use this api we need to provide the `url` where we will be listening for webhook events, and an array of the [events 
-that will trigger webhooks](https://docs.github.com/en/developers/webhooks-and-events/webhooks/webhook-events-and-payloads). The format of the webhook payload can come in 2 flavors, `json` or `form`. The rest api defaults to `form`, we are going to override this and use `json` instead as a default. 
+Inside the `ReposService` add an `async` method called `createWebhook`. For this api we need to provide the `url` where we will be listening for webhook events, and an array of the [events 
+that will trigger webhooks](https://docs.github.com/en/developers/webhooks-and-events/webhooks/webhook-events-and-payloads). The format of the webhook payload can come in 2 flavors, `json` or `form`. The rest api defaults to `form`, we are going to override this and use `json` instead. 
 
 ```js
   async createWebhook(hookUrl, events, contentType = "json") {
@@ -117,7 +111,7 @@ To allow our tests to clean up after themselves add another `async` method calle
   }
 ```
 
-By using a service class we are able to decouple the contract between our tests and the Github Octokit api. This serves to simplify consuming this api in our test code, while also centralizing changes in the event of breaking changes to the Octokit package.
+By using a service class we are able to decouple the contract between our tests and the Github Octokit api. This serves to simplify consuming this api in our test code, while also centralizing changes in the event of breaking changes to the Octokit.
 
 ## Triggering Events
 
