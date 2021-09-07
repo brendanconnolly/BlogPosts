@@ -28,8 +28,7 @@ Input: board =
 ,[".",".",".","4","1","9",".",".","5"]
 ,[".",".",".",".","8",".",".","7","9"]]
 ```
-- Output: false
-- Explanation: Same as Example 1, except with the 5 in the top left corner being modified to 8. Since there are two 8's in the top left 3x3 sub-box, it is invalid.
+- Output: true
 
 The trick here is realizing that the validation is the same for rows, columns and sub boards. Each case is still an array of 9 values that should not contain any duplicate values. The validation of each array is independent, if any row, column or sub board has a duplicate then the board is invalid. 
 
