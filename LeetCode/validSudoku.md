@@ -14,6 +14,7 @@ The challenge this time is:
 - Only the filled cells need to be validated according to the mentioned rules.
 
 > Example:
+
 ![board example](http://www.brendanconnolly.net/wp-content/uploads/2021/09/leetcode-sudoku.webp)
 ```js
 Input: board = 
