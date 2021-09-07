@@ -14,9 +14,10 @@ The challenge this time is:
 - Only the filled cells need to be validated according to the mentioned rules.
 
 > Example:
+![board example](http://www.brendanconnolly.net/wp-content/uploads/2021/09/leetcode-sudoku.webp)
 ```js
 Input: board = 
-[["8","3",".",".","7",".",".",".","."]
+[["5","3",".",".","7",".",".",".","."]
 ,["6",".",".","1","9","5",".",".","."]
 ,[".","9","8",".",".",".",".","6","."]
 ,["8",".",".",".","6",".",".",".","3"]
